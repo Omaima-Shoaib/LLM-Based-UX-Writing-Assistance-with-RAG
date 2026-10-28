@@ -1,0 +1,1552 @@
+﻿Input,Actual_output,Expected_output
+Who is this guide for?,"Since our conversation just started and there's no prior context, my response will be brief.
+
+However, based on the writing rules you provided earlier (don't over-explain, include necessary information, concise, scannable, simple, direct), I can infer that this guide is likely intended for a UX writing assistant or a content strategist who wants to ensure their microcopy aligns with established guidelines and best practices."," This guide is for product designers, content designers, UX writers, engineers adding microcopy, and any team member who writes words that appear in the product — including error messages, tooltips, labels, push notifications, and onboarding flows.
+
+ Before any UI text goes live, run through this quick reference checklist. For writing quality, check: is the message under 20 words? Does it start with the user's goal? Is it in present tense? Does it use common words with no jargon and no acronyms? Does it say only what the user needs to know right now? Is the button label a verb that completes 'I want to...'?"
+What specific UI elements and words that appear in the product does this guide cover?,"Since we haven't discussed any specific UI elements or product names, my previous response was an educated guess based on the writing rules you provided earlier.
+
+However, I'll try to provide a more concrete answer now. This guide likely covers microcopy related to navigation, input validation, error messages, and other common UI elements that are frequently used in digital products. If you'd like to share some specific context or product names, I can try to tailor my response accordingly!","The content matrix is used to track, audit, and maintain writing decisions across the product. Every piece of recurring UI text should have an entry. Each entry should record the screen or component where the text appears, the user's goal at that moment, the information the user needs to know in plain non-UI language, a draft version of the UI copy, the final approved live text, the tone applied, the component type such as dialog, snackbar, button, label, or notification, words to use in that context, words to avoid, whether Visa Secure rules were applied and which ones, whether accessibility was checked including alt text, label, and WCAG AA pass, and who is responsible for the content and when it was last reviewed.
+
+ This guide is for product designers, content designers, UX writers, engineers adding microcopy, and any team member who writes words that appear in the product — including error messages, tooltips, labels, push notifications, and onboarding flows."
+Why is UX writing uniquely critical in a fintech context and how does poor writing can affect user trust at the moment of payment?,"In a fintech context, UX writing is uniquely critical because financial products often involve high-stakes transactions with sensitive information. Poor microcopy or unclear instructions can lead to:
+
+* Security risks: User trust is eroded when users are not informed about required security measures.
+* Errors: Users may mistakenly enter incorrect information, leading to delays or failed transactions.
+* Frustration: Incongruent or ambiguous UI elements can cause users to feel frustrated and confused.
+
+In the context of payment processing, poor writing can make it difficult for users to:
+
+* Identify and correct errors
+* Understand security requirements
+* Navigate complex payment flows
+
+Conversely, well-written microcopy helps build trust and increases user confidence in financial products.","UX writing is not just labeling buttons. In a fintech context, poor writing can erode user trust at the moment of payment, create confusion during security checks causing unnecessary drop-off, generate support tickets from unclear error messages, and expose the company to compliance risk if authentication language misrepresents what a process does. Good UXwriting does the opposite: it guides users through complex flows with calm, clear language that makes them feel safe and in control.
+
+ These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply anddirectly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first,specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence."
+What negative outcomes can poor writing cause?,"Poor UX writing can lead to a range of negative outcomes for users, including:
+
+* Increased stress and anxiety: Unclear instructions or ambiguous UI elements can cause users to feel stressed and anxious.
+* Decreased trust: Inaccurate or unclear information can erode user trust in financial products.
+* Higher abandonment rates: Users may become disengaged from the product due to frustration or confusion caused by poor writing.
+* Decreased conversion rates: Poorly written microcopy can lead to mistakes, errors, or incomplete transactions, ultimately affecting sales and revenue.
+
+These negative outcomes can have a lasting impact on users' financial behavior and overall experience with the fintech product."," UX writing is not just labeling buttons. In a fintech context, poor writing can erode user trust at the moment of payment, create confusion during security checks causing unnecessary drop-off, generate support tickets from unclear error messages, and expose the company to compliance risk if authentication language misrepresents what a process does. Good UXwriting does the opposite: it guides users through complex flows with calm, clear language that makes them feel safe and in control.
+
+ Accessible writing is not a separate consideration — it is part of good writing. These rules ensure the app works for users with visual impairments, screen readers, and cognitive differences."
+How does good UX writing guide users through complex flows?,"Good UX writing guides users through complex flows by:
+
+* Providing clear and concise instructions
+* Using actionable language that avoids ambiguity
+* Emphasizing necessary steps and avoiding unnecessary information
+* Highlighting key errors or warnings to avoid frustration
+* Breaking up long sequences into manageable chunks
+* Offering reassurance and validation, such as confirming user actions
+
+By guiding users through complex flows in a clear and concise manner, good UX writing helps build trust, reduces confusion, and increases confidence in the product.","UX writing is not just labeling buttons. In a fintech context, poor writing can erode user trust at the moment of payment, create confusion during security checks causing unnecessary drop-off, generate support tickets from unclear error messages, and expose the company to compliance risk if authentication language misrepresents what a process does. Good UX writing does the opposite: it guides users through complex flows with calm, clear language that makes them feel safe and in control.
+
+These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence."
+How does the guide define the difference between Voice and Tone?,"We haven't discussed the specific guidelines or definitions for ""Voice"" and ""Tone"" yet.
+
+The context provided earlier mentioned that our conversation started with a request to apply certain writing rules when answering questions about microcopy, without mentioning voice and tone specifically. If you'd like to discuss those topics in more detail, I'm here to help!","Voice is who we are across every interaction. Tone is how we adjust to each situation. Voice stays consistent; tone adapts.
+ For voice and tone, check: does it match the tone for this moment? Is it using you/your or I/my for owned items — but not both? Is it calm with no alarm words and no overclaiming of security? Does it sound like something a helpful person would actually say?"
+What are the standard  brand voices of tone that can be used across the product ?,"We haven't discussed any specific brand voices or tones yet.
+
+However, based on our previous conversation, it seems we were discussing the importance of UX writing in a fintech context, particularly when it comes to payment processing and user trust. But I didn't mention brand voice or tone specifically. If you'd like to explore those topics further, I'm here to help!"," Voice is who we are across every interaction. Tone is how we adjust to each situation. Voice stays consistent; tone adapts.
+
+For voice and tone, check: does it match the tone for this moment? Is it using you/your or I/my for owned items — but not both? Is it calm with no alarm words and no overclaiming of security? Does it sound like something a helpful person would actually say?
+
+During onboarding and first use, the tone should be warm and encouraging, with short sentences, positive framing, and a welcoming feel. During a payment in progress, the tone should be calm and reassuring, using present tense, factual language, and minimal words. During authentication or a Visa Secure step, the tone should be calm and authoritative — precise, free of alarm, and always explaining the reason. For success confirmations, the tone should be warm and brief — positive, closing the loop quickly, without over-celebration. For user-fixable errors, the tone should be supportive and instructive, explaining what happened and what to do next. For system errors, the tone should be apologetic and calm — own the problem, give next steps, and place no blame on the user. For security warnings, the tone should be serious and direct, using clear language, avoiding panic, and staying actionable. For empty states, the tone should be helpful and light, guiding the user toward action and avoiding dead-end phrases like 'Nothing here'."
+How is being 'Clear' defined?,"I think we're back on track!
+
+According to our previous conversation, being ""Clear"" in the context of UX writing means:
+
+* Providing clear and concise instructions
+* Using actionable language that avoids ambiguity
+* Emphasizing necessary steps and avoiding unnecessary information
+* Highlighting key errors or warnings to avoid frustration
+* Breaking up long sequences into manageable chunks
+
+By defining clarity, we can ensure that users receive accurate and helpful information that guides them through complex flows, builds trust, reduces confusion, and increases confidence."," The standard  brand voices of tone are Clear, Trustworthy, Calm, Human, and Concise, Being Clear means using plain language with no jargon and no unexplained acronyms — write 'Your payment is being verified', not 'EMV 3DS challenge initiated'. Being Trustworthy means being accurate, honest, and precise, never minimising risk or overclaiming security — write 'Secured with Visa Secure', not '100% fraud-proof'. Being Calm means avoiding alarming language especially during authentication steps — write 'We need to verify it's you', not 'Security alert: action required'. Being Human means writing like a helpful person, not a legal document or a robot — write 'Something went wrong. Let's try that again.', not 'Error code 4031'. Being Concise means respecting the user's time and saying only what they need to know right now — write 'Confirm payment', not 'Please proceed to confirm your payment transaction'.
+
+Before any UI text goes live, run through this quick reference checklist. For writing quality, check: is the message under 20 words? Does it start with the user's goal? Is it in present tense? Does it use common words with no jargon and no acronyms? Does it say only what the user needs to know right now? Is the button label a verb that completes 'I want to...'?"
+why shouldn't we write 'EMV 3DS challenge initiated'?,"Based on the writing rules you provided earlier, I would suggest rewriting the sentence as:
+
+* ""Security alert: EMV 3DS challenge initiated""
+
+This revised phrase is concise, clear, and scannable, avoiding unnecessary words like ""EMV"" that might confuse users. It also accurately conveys the intended meaning and action taken by the product.
+
+The original sentence was a bit wordy and included unnecessary detail (""challenge initiated""), which makes it harder for users to understand the message. The revised phrase is more direct and effective in conveying the information.","For authentication screen writing, when a Visa Secure authentication step is triggered, explain why the step is happening in plain language. Use calm, factual language — this is a routine security check, not an emergency. Reference Visa Secure by name when appropriate to reinforce trust. Keep screens concise with one primary message and one action. Write 'We need to verify it's you' not 'SECURITY ALERT: Identity verification required'. Write 'Your bank has requested a security check' not 'EMV 3DS challenge initiated by issuer'. Write 'Secured with Visa Secure' not 'Verified by Visa 3-D Secure'. Write 'Enter the code sent to +44 .... 7823' not 'Input your OTP / one-time passcode'. Write 'Didn't receive it? Resend code' not 'Re-initiate OTP delivery'.
+Avoid these word-choice patterns: never expose technical protocol names such as EMV, 3DS, VbV, PAN, or tokenisation directly in consumer-facing UI unless they are explained. These terms belong in developer or support documentation only. Avoid words like 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine authentication flows — theycause unnecessary anxiety and can increase abandonment rates. Never say '100% secure', 'fraud-proof', or 'guaranteed safe'. These claims are inaccurate and create legal exposure. Use 'secured with Visa Secure' or 'verified by Visa' instead."
+How is being 'Trustworthy' defined?,"Based on our previous conversation, ""Trustworthy"" was actually mentioned as a characteristic of good UX writing, rather than an adjective defining a specific phrase.
+
+Good UX writing for a fintech product should aim to build trust with users by providing clear and accurate information. This can include phrases like:
+
+* ""Secure payment processing""
+* ""Comprehensive security measures""
+* ""Protecting sensitive financial data""
+
+These types of phrases help establish trust with users, which is essential in building confidence in the product."," The standard  brand voices of tone are Clear, Trustworthy, Calm, Human, and Concise, Being Clear means using plain language with no jargon and no unexplained acronyms — write 'Your payment is being verified', not 'EMV 3DS challenge initiated'. Being Trustworthy means being accurate, honest, and precise, never minimising risk or overclaiming security — write 'Secured with Visa Secure', not '100% fraud-proof'. Being Calm means avoiding alarming language especially during authentication steps — write 'We need to verify it's you', not 'Security alert: action required'. Being Human means writing like a helpful person, not a legal document or a robot — write 'Something went wrong. Let's try that again.', not 'Error code 4031'. Being Concise means respecting the user's time and saying only what they need to know right now — write 'Confirm payment', not 'Please proceed to confirm your payment transaction'.
+
+For voice and tone, check: does it match the tone for this moment? Is it using you/your or I/my for owned items — but not both? Is it calm with no alarm words and no overclaiming of security? Does it sound like something a helpful person would actually say?"
+ why should avoid'100% fraud-proof' or '100% secure' when writing ux copy?,"We've returned to discussing the importance of good UX writing for a fintech product.
+
+Avoiding phrases like ""100% fraud-proof"" or ""100% secure"" is not necessary, as they are often redundant and misleading. These phrases can create unnecessary expectations in users, leading to disappointment when the product doesn't meet those high standards.
+
+In fact, including clear and realistic language helps build trust with users, such as:
+
+* ""We use industry-leading security measures""
+* ""Our payment processing is designed to protect your sensitive financial information""
+
+These types of phrases provide a more accurate representation of the product's capabilities, rather than relying on exaggerated language. By avoiding these phrases, you can help users understand what the product can actually deliver and make more informed decisions about their financial data."," These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence.
+ UX writing is not just labeling buttons. In a fintech context, poor writing can erode user trust at the moment of payment, create confusion during security checks causing unnecessary drop-off, generate support tickets from unclear error messages, and expose the company to compliance risk if authentication language misrepresents what a process does. Good UX writing does the opposite: it guides users through complex flows with calm, clear language that makes them feel safe and in control."
+How is being 'Calm' defined?,"Based on our previous conversation, ""Calm"" is often used to describe a soothing or reassuring tone in UX writing for fintech products.
+
+By using words like ""calm"", ""peaceful"", or ""relaxed"", you can create a sense of reassurance and stability in your product's UI, helping users feel more confident and secure. This can be especially important when dealing with sensitive financial information, such as payment processing or transactions.","The standard  brand voices of tone are Clear, Trustworthy, Calm, Human, and Concise, Being Clear means using plain language with no jargon and no unexplained acronyms — write 'Your payment is being verified', not 'EMV 3DS challenge initiated'. Being Trustworthy means being accurate, honest, and precise, never minimising risk or overclaiming security — write 'Secured with Visa Secure', not '100% fraud-proof'. Being Calm means avoiding alarming language especially during authentication steps — write 'We need to verify it's you', not 'Security alert: action required'. Being Human means writing like a helpful person, not a legal document or a robot — write 'Something went wrong. Let's try that again.', not 'Error code 4031'. Being Concise means respecting the user's time and saying only what they need to know right now — write 'Confirm payment', not 'Please proceed to confirm your payment transaction'.
+
+ During onboarding and first use, the tone should be warm and encouraging, with short sentences, positive framing, and a welcoming feel. During a payment in progress, the tone should be calm and reassuring, using present tense, factual language, and minimal words. During authentication or a Visa Secure step, the tone should be calm and authoritative — precise, free of alarm, and always explaining the reason. For success confirmations, the tone should be warm and brief — positive, closing the loop quickly, without over-celebration. For user-fixable errors, the tone should be supportive and instructive, explaining what happened and what to do next. For system errors, the tone should be apologetic and calm — own the problem, give next steps, and place no blame on the user. For security warnings, the tone should be serious and direct, using clear language, avoiding panic, and staying actionable. For empty states, the tone should be helpful and light, guiding the user toward action and avoiding dead-end phrases like 'Nothing here'."
+why shouldn't we write 'Security alert' during authentication steps?,"We've discussed this topic earlier!
+
+Writing ""Security alert"" when describing an authentication step might not be the most effective approach in several ways:
+
+* It can come across as too alarming or attention-grabbing, potentially scaring users into entering their credentials.
+* It may create unnecessary friction by prompting users to take action without providing a clear explanation of what's happening.
+
+A more effective approach would be to use phrases that clearly communicate the nature of the authentication step and provide context for user actions. For example:
+
+* ""Confirm your password to complete this transaction""
+* ""Verify your identity to process this payment""
+
+These types of sentences help users understand what they're doing without creating unnecessary alertness or anxiety."," For authentication screen writing, when a Visa Secure authentication step is triggered, explain why the step is happening in plain language. Use calm, factual language — this is a routine security check, not an emergency. Reference Visa Secure by name when appropriate to reinforce trust. Keep screens concise with one primary message and one action. Write 'We need to verify it's you' not 'SECURITY ALERT: Identity verification required'. Write 'Your bank has requested a security check' not 'EMV 3DS challenge initiated by issuer'. Write 'Secured with Visa Secure' not 'Verified by Visa 3-D Secure'. Write 'Enter the code sent to +44 .... 7823' not 'Input your OTP / one-time passcode'. Write 'Didn't receive it? Resend code' not 'Re-initiate OTP delivery'.
+ Avoid these word-choice patterns: never expose technical protocol names such as EMV, 3DS, VbV, PAN, or tokenisation directly in consumer-facing UI unless they are explained. These terms belong in developer or support documentation only. Avoid words like 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine authentication flows — they cause unnecessary anxiety and can increase abandonment rates. Never say '100% secure', 'fraud-proof', or 'guaranteed safe'. These claims are inaccurate and create legal exposure. Use 'secured with Visa Secure' or 'verified by Visa' instead."
+What is the concise alternative to a sentence explaining that a one-time verification code has been dispatched to a registered mobile number?,"Instead of:
+
+* ""A security message was sent to your registered mobile number.""
+* ""You have been granted access to our service.""
+
+A more concise and accurate alternative could be:
+
+* ""One-time code: [code]""
+
+This phrase clearly conveys the information that a one-time verification code has been dispatched, without using unnecessary language or context."," Communicate only essential details: every screen has a job. Only include information that helps the user complete that specific task. Avoid information overload, especially during payment and authentication flows. Write 'Enter the 6-digit code we sent to +20 .... 4521' not a sentence explaining that a one-time verification code has been dispatched to your registered mobile number for security purposes. Write '3 attempts remaining' not 'You have 3 remaining attempts before your account is temporarily suspended'. Write 'Card ending in 4242 charged 49.99' not a full sentence restating the card type, digits, and amount.
+
+ Write simply and directly: plain language is not dumbing down — it is respecting the user's attention. Always ask: is there a simpler way to say this? Write 'Verify your identity' not 'Authenticate your credentials'. Write 'Your card has been added' not 'Card tokenisation was successful'. Write 'Try again' not 'Re-initiate the transaction'."
+How is being 'Concise' defined?,"Being ""Concise"" in UX writing means:
+
+* Using clear and direct language
+* Avoiding unnecessary words or phrases
+* Emphasizing essential information without cluttering the copy
+* Breaking up long sentences into shorter, more manageable chunks
+* Using active voice instead of passive voice
+
+By focusing on concision, you can ensure that your product's UI is easy to read and understand, while also conveying important information quickly and efficiently.","  The standard  brand voices of tone are Clear, Trustworthy, Calm, Human, and Concise, Being Clear means using plain language with no jargon and no unexplained acronyms — write 'Your payment is being verified', not 'EMV 3DS challenge initiated'. Being Trustworthy means being accurate, honest, and precise, never minimising risk or overclaiming security — write 'Secured with Visa Secure', not '100% fraud-proof'. Being Calm means avoiding alarming language especially during authentication steps — write 'We need to verify it's you', not 'Security alert: action required'. Being Human means writing like a helpful person, not a legal document or a robot — write 'Something went wrong. Let's try that again.', not 'Error code 4031'. Being Concise means respecting the user's time and saying only what they need to know right now — write 'Confirm payment', not 'Please proceed to confirm your payment transaction'.
+
+Before any UI text goes live, run through this quick reference checklist. For writing quality, check: is the message under 20 words? Does it start with the user's goal? Is it in present tense? Does it use common words with no jargon and no acronyms? Does it say only what the user needs to know right now? Is the button label a verb that completes 'I want to...'?"
+How should we write confirm your payment message or confirmation is required for the payment so you can proceed to next steps?,"We've discussed this topic earlier.
+
+Writing ""Confirm your payment"" as a standalone sentence is not ideal, as it might leave users feeling uncertain about what's happening. Instead, consider using phrases that explicitly state the requirement and provide context for user actions. For example:
+
+* ""Confirmation required: Please review your order""
+* ""Please confirm payment details to proceed""
+
+By using these types of sentences, you can clearly communicate the requirements without leaving room for misinterpretation or confusion.
+
+The original phrase was a bit unclear and could be rephrased to improve clarity and concision.","When writing for the product, be concise and not robotic: write short, scannable text. Users in a payment flow are focused — give them only what they need. Write 'Confirm payment' not 'Please proceed to confirm your payment'. Write 'Add your card details' not 'Please enter your card information below'. Write 'We couldn't process this' not 'An error has occurred during payment processing'.
+
+ For general word choice, use common, everyday words that any reader would understand on first read. Write in the present tense: 'Your payment is processing' not 'Your payment will be processed'. Use numerals (1, 2, 3) not spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens — never use 'confirm', 'approve', and 'authorise' interchangeably for the same action."
+"What are the characteristics of the tone during onboarding and first use, including sentence length, and overall feel?","During onboarding and first use, the tone should aim to establish trust and create a sense of comfort with the product.
+
+**Sentences:**
+* Use short sentences or bullets with clear headings
+* Break up long blocks of text into smaller chunks
+* Include relevant metrics or statistics to demonstrate value
+
+**Overall feel:** 
+* Friendly and approachable
+* Clear and concise language avoiding jargon and technical terms
+* Positive and encouraging, but also providing necessary feedback and guidance
+
+The goal is to create a sense of ease and familiarity during the onboarding process, while still conveying essential information about the product's functionality and limitations."," During onboarding and first use, the tone should be warm and encouraging, with short sentences, positive framing, and a welcoming feel. During a payment in progress, the tone should be calm and reassuring, using present tense, factual language, and minimal words. During authentication or a Visa Secure step, the tone should be calm and authoritative — precise, free of alarm, and always explaining the reason. For success confirmations, the tone should be warm and brief — positive, closing the loop quickly, without over-celebration. For user-fixable errors, the tone should be supportive and instructive, explaining what happened and what to do next. For system errors, the tone should be apologetic and calm — own the problem, give next steps, and place no blame on the user. For security warnings, the tone should be serious and direct, using clear language, avoiding panic, and staying actionable. For empty states, the tone should be helpful and light, guiding the user toward action and avoiding dead-end phrases like 'Nothing here'.
+
+For voice and tone, check: does it match the tone for this moment? Is it using you/your or I/my for owned items — but not both? Is it calm with no alarm words and no overclaiming of security? Does it sound like something a helpful person would actually say?"
+How should the tone adapt during a payment in progress?,"During a payment in progress, the tone should aim to:
+
+* Inform users about the current status
+* Provide clear instructions and guidance
+* Emphasize necessary steps or actions
+
+**Tone characteristics:**
+
+* Clear and concise language avoiding ambiguity or confusion
+* Straightforward explanations of transactions and fees
+* Minimal use of technical terms or jargon
+* A sense of confidence and security in the product's functionality
+
+By adapting to this tone, you can effectively communicate with users during a payment in progress, making it easier for them to manage their finances and trust the product.","During onboarding and first use, the tone should be warm and encouraging, with short sentences, positiveframing, and a welcoming feel. During a payment in progress, the tone should be calm and reassuring, using present tense, factual language, and minimal words. During authentication or a Visa Secure step, the tone should be calm and authoritative — precise, free of alarm, and always explaining the reason. For success confirmations, the tone should be warm and brief — positive, closing the loop quickly, without over-celebration. For user-fixable errors, the tone should be supportive and instructive, explaining what happened and what to do next. For system errors, the tone should be apologetic and calm — own the problem, give next steps, and place no blame on the user. For security warnings, the tone should be serious and direct, using clear language, avoiding panic, and staying actionable. For empty states, the tone should be helpful and light, guiding the user toward action and avoiding dead-end phrases like 'Nothing here'.
+
+For general word choice, use common, everyday words that any reader would understand on first read. Write in the present tense: 'Your payment is processing' not 'Your payment will be processed'. Use numerals (1, 2, 3) not spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens — never use 'confirm', 'approve', and 'authorise' interchangeably for the same action."
+What are the tone requirements for an authentication or a Visa Secure step?,"During an authentication or a Visa Secure step:
+
+* Use clear and concise language
+* Avoid jargon and technical terms
+* Emphasize necessary steps and actions
+* Provide positive feedback when users succeed in completing the task
+* Keep the tone friendly, approachable, and reassuring
+
+**Avoid:**
+
+* Overly promotional language or claims of ""super secure""
+* Jargon or technical terms that might confuse users
+* Too many technical details or explanations
+
+By maintaining a clear and concise tone during these steps, you can help build trust with users, reduce friction, and increase the overall user experience.","For authentication screen writing, when a Visa Secure authentication step is triggered, explain why the step is happening in plain language. Use calm, factual language — this is a routine security check, not an emergency. Reference Visa Secure by name when appropriate to reinforce trust. Keep screens concise with one primary message and one action. Write 'We need to verify it's you' not 'SECURITY ALERT: Identity verification required'. Write 'Your bank has requested a security check' not 'EMV 3DS challenge initiated by issuer'. Write 'Secured with Visa Secure' not 'Verified by Visa 3-D Secure'. Write 'Enter the code sent to +44 .... 7823' not 'Input your OTP / one-time passcode'. Write 'Didn't receive it? Resend code' not 'Re-initiate OTP delivery'.
+
+During onboarding and first use, the tone should be warm and encouraging, with short sentences, positive framing, and a welcoming feel. During a payment in progress, the tone should be calm and reassuring, using present tense, factual language, and minimal words. During authentication or a Visa Secure step, the tone should be calm and authoritative — precise, free of alarm, and always explaining the reason. For success confirmations, the tone should be warm and brief — positive, closing the loop quickly, without over-celebration. For user-fixable errors, the tone should be supportive and instructive, explaining what happened and what to do next. For system errors, the tone should be apologetic and calm — own the problem, give next steps, and place no blame on the user. For security warnings, the tone should be serious and direct, using clear language, avoiding panic, and staying actionable. For empty states, the tone should be helpful and light, guiding the user toward action and avoiding dead-end phrases like 'Nothing here'."
+How should success confirmation copy be handled?,"When it comes to handling success confirmation copy, consider:
+
+* **Clear language**: Use simple, straightforward sentences that clearly state the outcome
+* **Simplicity**: Avoid using complex technical terms or jargon that might confuse users
+* **Positive tone**: Emphasize successful completion of a task or action
+* **Concise**: Keep sentences short and to the point
+
+**Avoid:**
+
+* **Overly positive language**: Phrases like ""Congratulations, you've successfully..."" can come across as insincere if not balanced with clearer information.
+* **Technical jargon**: Using technical terms that users might be unfamiliar with can lead to confusion.
+
+By handling success confirmation copy in this way, you can help build confidence and trust in the product, while also providing clear and accurate feedback about user actions.","These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence.
+
+When writing for the product, be concise and not robotic: write short, scannable text. Users in a payment flow are focused — give them only what they need. Write 'Confirm payment' not 'Please proceed to confirm your payment'. Write 'Add your card details' not 'Please enter your card information below'. Write 'We couldn't process this' not 'An error has occurred during payment processing'."
+What is the difference in tone between user errors  and system errors ?,"In UX writing for a fintech product, the tone should differ between:
+
+**User Errors:**
+
+* Friendly and approachable
+* Helpful and supportive
+* Empathetic and understanding of users' frustrations or mistakes
+* Clearly communicates the problem and provides solutions
+
+Example:
+""Oops! You've entered an incorrect payment amount. Please try again.""
+
+**System Errors:**
+
+* Professional and matter-of-fact
+* Neutral language avoids emotional tone
+* Focus on technical details, without empathy or support
+* Clearly conveys the error and its impact
+
+Example:
+""Error 404: Payment processing failed due to insufficient funds""
+
+By adapting to these tones, you can effectively communicate system errors in a clear and concise manner, helping users understand what's happening and how to resolve it.","  For error messages, check: does it state what happened? Does it say what to do next? Does it avoid raw error codes in the user-facing text? Is it supportive and non-blaming?
+
+  Never show raw error codes such as 'Error 4031' or 'ERR_AUTH_FAIL' to users. Log them internally and show a human message instead. If a code is legally required, place it in small secondary text below the main message."
+What tone should be used for security warnings?,"When it comes to security warnings:
+
+* **Concerning**: Use language that acknowledges the potential risk or threat, such as ""Caution: this request is not secure""
+* **Cautious**: Use phrases like ""Proceed with caution"" or ""Verify your identity before proceeding"", to convey a sense of uncertainty
+* **Responsible**: Emphasize that users should verify their credentials and take necessary precautions
+
+Example:
+""Caution: This request may be attempting to steal sensitive financial information. Verify your identity before proceeding.""
+
+Avoid using:
+
+* Overly alarmist language (""Warning! You're in danger!"")
+* Phrases like ""Please hurry"" or ""Quick action is required""
+
+The goal is to provide users with essential guidance and context, while also acknowledging the potential risks involved."," During onboarding and first use, the tone should be warm and encouraging, with short sentences, positive framing, and a welcoming feel. During a payment in progress, the tone should be calm and reassuring, using present tense, factual language, and minimal words. During authentication or a Visa Secure step, the tone should be calm and authoritative — precise, free of alarm, and always explaining the reason. For success confirmations, the tone should be warm and brief — positive, closing the loop quickly, without over-celebration. For user-fixable errors, the tone should be supportive and instructive, explaining what happened and what to do next. For system errors, the tone should be apologetic and calm — own the problem, give next steps, and place no blame on the user. For security warnings, the tone should be serious and direct, using clear language, avoiding panic, and staying actionable. For empty states, the tone should be helpful and light, guiding the user toward action and avoiding dead-end phrases like 'Nothing here'.
+
+ Avoid these word-choice patterns: never expose technical protocol names such as EMV, 3DS, VbV, PAN, or tokenisation directly in consumer-facing UI unless they are explained. These terms belong in developer or support documentation only. Avoid words like 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine authentication flows — they cause unnecessary anxiety and can increase abandonment rates. Never say '100% secure', 'fraud-proof', or 'guaranteed safe'. These claims are inaccurate and create legal exposure. Use 'secured with Visa Secure' or 'verified by Visa' instead."
+How to avoid panic and stay actionable?,"To avoid panic and stay actionable when writing about security warnings:
+
+* **Use clear and concise language**: Avoid using jargon or technical terms that might confuse users
+* **Provide necessary information**: Include details about the specific action being asked of, such as verifying credentials or confirming payment
+* **Use a calm tone**: Emphasize the importance of taking action to prevent potential security risks
+* **Emphasize proactive steps**: Encourage users to take immediate action, rather than just providing reassurance
+
+Example:
+""Please verify your identity and confirm your payment before proceeding. If you're unsure about any part of this process, please contact our support team for assistance.""
+
+By using a calm tone and emphasizing proactive steps, you can help users feel more in control and confident in their actions, while also reducing panic and increasing actionability.","These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence.
+
+  For push notification writing, notifications must be useful, timely, and clear. Users who find them confusing or alarming will disable them, losing a critical trust channel. Lead with what happened, then the detail. Use numerals and be specific about amounts and recipients. Avoid alarm words for routine events. For security events, be direct but calm. For a payment sent, write 'Payment sent • 49.99 to Netflix'. For a card charge, write 'Charge confirmed • 12.50 at Starbucks'. For a required authentication, write 'Verify your payment • Tap to confirm 49.99 to Amazon'. For unusual activity, write 'Check your account • We noticed an unrecognised payment attempt'. For a card expiring, write 'Card expiring soon • Update your card by 31 Dec'."
+What is the purpose of the empty state?,"The empty state:
+
+* **Provides space**: Creates a gap between user interactions and expected next steps
+* **Increases clarity**: Helps users understand what they need to do before proceeding
+* **Reduces frustration**: Gives users time to process information without feeling overwhelmed or confused
+* **Improves navigation**: Allows for clearer direction and more intuitive flow
+
+By leaving empty space in UI elements, you can make it easier for users to:
+
+* Understand the current state of the application
+* Make informed decisions about their next actions
+* Reduce cognitive load and frustration
+
+Example:
+```
+Payment processing: [Current Step]
+Next steps:
+  1. Verify payment information
+  2. Confirm credit card details
+```
+By leaving empty space, you can create a clearer and more intuitive experience for users, which can lead to better retention rates, improved satisfaction, and increased overall UX."," For empty state writing, empty states should guide users toward action, not just announce that nothing is there. For a screen with no cards added, write 'Add a card to start paying' not 'No cards'. For a screen with no transactions, write 'Your payments will appear here' not 'No transactions yet'. For a screen with no notifications, write 'You're all caught up' not 'Nothing here'. For a screen with no search results, write 'No results for '[query]'. Try different words.' not 'No results'.
+
+For voice and tone, check: does it match the tone for this moment? Is it using you/your or I/my for owned items — but not both? Is it calm with no alarm words and no overclaiming of security? Does it sound like something a helpful person would actually say?"
+How should the tone for empty states guide the user toward action?,"When guiding users towards action in an empty state:
+
+* **Clear instruction**: Provide explicit instructions on what to do next
+* **Actionable language**: Use phrases like ""Click here"" or ""Tap this button"" to make actions more concrete
+* **Emphasis on progression**: Highlight the importance of progressing through the workflow rather than just being told what to do
+
+Example:
+```
+Payment processing: [Current Step]
+Next steps:
+
+  1. Verify payment information
+  2. Confirm credit card details
+  Click here to proceed -> Payment confirmed!
+```
+By using actionable language and emphasizing progression, you can guide users towards action without leaving them feeling confused or unsure.
+
+Avoid overusing phrases like ""Click here"" or ""Tap this button"", as they can come across as insistent or pushy. Instead, focus on providing clear instruction and making actions more concrete to help users stay on track.","For empty state writing, empty states should guide users toward action, not just announce that nothing is there. For a screen with no cards added, write 'Add a card to start paying' not 'No cards'. For a screen with no transactions, write 'Your payments will appear here' not 'No transactions yet'. For a screen with no notifications, write 'You're all caught up' not 'Nothing here'. For a screen with no search results, write 'No results for '[query]'. Try different words.' not 'No results'.
+
+During onboarding and first use, the tone should be warm and encouraging, with short sentences, positive framing, and a welcoming feel. During a payment in progress, the tone should be calm and reassuring, using present tense, factual language, and minimal words. During authentication or a Visa Secure step, the tone should be calm and authoritative — precise, free of alarm, and always explaining the reason. For success confirmations, the tone should be warm and brief — positive, closing the loop quickly, without over-celebration. For user-fixable errors, the tone should be supportive and instructive, explaining what happened and what to do next. For system errors, the tone should be apologetic and calm — own the problem, give next steps, and place no blame on the user. For security warnings, the tone should be serious and direct, using clear language, avoiding panic, and staying actionable. For empty states, the tone should be helpful and light, guiding the user toward action and avoiding dead-end phrases like 'Nothing here'."
+How should text be written to respect a focused user in a payment flow?,"When writing text for a payment flow with a focused user:
+
+* **Use concise language**: Avoid unnecessary words or phrases that might distract the user
+* **Avoid lengthy descriptions**: Keep paragraphs short and avoid providing too much information at once
+* **Emphasize action-oriented instructions**: Use verbs like ""Click"", ""Confirm"", or ""Proceed"" to guide users towards action
+
+Example:
+```
+  Payment Options
+  Select a payment method: [1-3]
+```
+In this example, the user is presented with three options and instructed to select one. By using concise language and emphasizing action-oriented instructions, you can help focus the user on the next step.
+
+Avoid using phrases like ""Please review your order"" or ""Verify your identity"", as they might confuse users who are trying to complete a payment flow. Instead, use clear and concise instructions that guide them towards action without overwhelming them with unnecessary information.","When writing for the product, be concise and not robotic: write short, scannable text. Users in a payment flow are focused — give them only what they need. Write 'Confirm payment' not 'Please proceed to confirm your payment'. Write 'Add your card details' not 'Please enter your card information below'. Write 'We couldn't process this' not 'An error has occurred during payment processing'.
+
+These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence."
+What are the preferred concise alternatives to 'enter card data '?,"When writing concise alternatives to ""enter card data"":
+
+* **Use direct language**: Replace phrases like ""Enter card number"" or ""Provide credit card details"" with more direct language
+* **Avoid jargon and technical terms**: Use plain language that's easy for users to understand, without explaining complex payment methods
+
+Example:
+```
+  Payment Options
+  Select a payment method: [1-3]
+```
+Alternatively, you could use phrases like:
+
+* ""Enter card details""
+* ""Provide credit card information""
+* ""Insert card number""
+
+Avoid using phrases like ""Please enter your credit card number"" or ""Can you provide your credit card info"", as they might confuse users who are trying to complete a payment flow. Instead, use clear and concise instructions that guide them towards action without overwhelming them with unnecessary information.
+
+By using direct language and avoiding jargon, you can help simplify the payment process for users and reduce cognitive load.","These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence.
+
+ When writing for the product, be concise and not robotic: write short, scannable text. Users in a payment flow are focused — give them only what they need. Write 'Confirm payment' not 'Please proceed to confirm your payment'. Write 'Add your card details' not 'Please enter your card information below'. Write 'We couldn't process this' not 'An error has occurred during payment processing'."
+What is the preferred concise alternative to 'An error happened'?,"When writing a concise alternative to ""An error happened"":
+
+* **Use action-oriented language**: Replace phrases like ""Error occurred"" or ""Something went wrong"" with more direct instructions
+* **Provide context**: Give users a clear idea of what happened and how they can proceed
+
+Example:
+```
+  Payment Processing
+  An unexpected issue has arisen.
+  Please verify your information before proceeding.
+
+  (e.g. Check payment method, confirm credit card details)
+```
+Alternatively, you could use phrases like:
+
+* ""An error occurred while processing""
+* ""A payment issue was detected""
+* ""We're experiencing technical difficulties""
+
+Avoid using phrases like ""Please try again"" or ""Check your credentials"", as they might come across as dismissive or unhelpful. Instead, focus on providing clear instructions and context to help users resolve the issue.
+
+By using action-oriented language and providing context, you can help simplify the payment process for users and reduce frustration."," For error messages, check: does it state what happened? Does it say what to do next? Does it avoid raw error codes in the user-facing text? Is it supportive and non-blaming?
+
+For error message writing, errors are where trust is most at risk. A good error message has three parts: what happened, why if helpful, and what to do next. For a user input error, state what is wrong and what to fix — write ""Card number must be 16 digits"". For a declined payment, state the outcome calmly and suggest an action — write ""We couldn't complete this payment. Try a different card or contact your bank."" For a system or network error, own the problem and give next steps — write ""Something went wrong on our end. Please try again in a moment."" For a session timeout, explain why and offer a path forward — write ""You've been signed out for your security. Sign in to continue."" For a failed authentication, stay calm and offer a retry or help — write ""We couldn't verify your identity. Try again or contact your bank."""
+why should I use plain language?,"Using plain language is recommended because:
+
+* **It's easier to read**: Clear and concise writing reduces cognitive load and makes it simpler for users to understand complex information.
+* **It's more accessible**: Plain language can be more effective in communicating technical concepts or payment methods that might be unfamiliar to some users.
+* **It's more forgiving**: Easy-to-understand language reduces the likelihood of errors, such as misinterpreting instructions or confusing user experiences.
+
+By using plain language, you can:
+
+* Reduce frustration and confusion
+* Improve user satisfaction and retention
+* Increase overall usability and effectiveness
+
+Remember, clear and concise writing is essential for effective communication in payment flows."," Write simply and directly: plain language is not dumbing down — it is respecting the user's attention. Always ask: is there a simpler way to say this? Write 'Verify your identity' not 'Authenticate your credentials'. Write 'Your card has been added' not 'Card tokenisation was successful'. Write 'Try again' not 'Re-initiate the transaction'.
+
+ These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence."
+Why is plain language considered  respecting the user's attention?,"Plain language is considered respectful of a user's attention because:
+
+* **It acknowledges their cognitive load**: Clear and concise writing takes into account the user's limited attention span and avoids overwhelming them with complex information.
+* **It uses simple vocabulary**: Avoiding jargon or technical terms helps users focus on the task at hand, rather than getting bogged down in unnecessary details.
+* **It prioritizes action over explanations**: Providing actionable instructions without lengthy explanations can help users understand what they need to do next and feel more confident in their abilities.
+
+By using plain language, you can:
+
+* Reduce cognitive load and mental fatigue
+* Increase user confidence and motivation
+* Improve overall experience and satisfaction
+
+Remember, respecting a user's attention means providing clear, concise, and actionable instructions that minimize confusion and overwhelm.","Write simply and directly: plain language is not dumbing down — it is respecting the user's attention. Always ask: is there a simpler way to say this? Write 'Verify your identity' not 'Authenticate your credentials'. Write 'Your card has been added' not 'Card tokenisation was successful'. Write 'Try again' not 'Re-initiate the transaction'.
+
+ UX writing is not just labeling buttons. In a fintech context, poor writing can erode user trust at the moment of payment, create confusion during security checks causing unnecessary drop-off, generate support tickets from unclear error messages, and expose the company to compliance risk if authentication language misrepresents what a process does. Good UX writing does the opposite: it guides users through complex flows with calm, clear language that makes them feel safe and in control."
+"Is it ok to write this to the user 'Relax, your data is ciphered', and why?","No, it's not okay to write ""Relax, your data is ciphered"" to a user.
+
+This approach can come across as dismissive or patronizing, implying that the user should simply relax and trust that their sensitive information is being protected. This can be perceived as condescending and may:
+
+* Create a sense of mistrust
+* Make users feel like they're not in control of their own data
+* Decrease the likelihood of users following instructions
+
+A more effective approach might be to provide clear explanations about how data protection works, without using language that implies trust is being placed in the user. For example:
+
+""Your credit card information will be encrypted before it's stored or transmitted.""
+
+This way, you can educate users about data protection without making them feel like they need to relax and trust everything to a certain degree.
+
+Avoiding vague statements like ""Relax, your data is ciphered"" can help create a more positive and empowering experience for users."," Write simply and directly: plain language is not dumbing down — it is respecting the user's attention. Always ask: is there a simpler way to say this? Write 'Verify your identity' not 'Authenticate your credentials'. Write 'Your card has been added' not 'Card tokenisation was successful'. Write 'Try again' not 'Re-initiate the transaction'.
+
+These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence."
+"What plain language terms should replace 'Authenticate', 'ciphered' and 'Re-initiate the transaction' ?","When using plain language to replace these terms:
+
+* **Use clear and concise phrases**: Avoid vague or technical terms that might confuse users.
+* **Focus on action-oriented instructions**: Provide actionable words like ""Confirm"", ""Verify"", or ""Proceed"" instead of vague phrases.
+
+Here are some examples:
+
+* Replace 'Authenticate' with:
+	+ Confirm
+	+ Verify
+	+ Proceed
+* Replace 'Ciphered' with:
+	+ Encrypted
+	+ Secure
+	+ Protected
+* Replace 'Re-initiate the transaction' with:
+	+ Restart
+	+ Start again
+	+ Resubmit
+
+By using plain language, you can make instructions more accessible and understandable for users.
+
+Example:
+
+""Confirm your payment information to continue.""
+
+This approach helps to reduce cognitive load and makes it clearer what needs to be done next.","Write simply and directly: plain language is not dumbing down — it is respecting the user's attention. Always ask: is there a simpler way to say this? Write 'Verify your identity' not 'Authenticate your credentials'. Write 'Your card has been added' not 'Card tokenisation was successful'. Write 'Try again' not 'Re-initiate the transaction'.
+
+For fintech-specific word choices, write 'Verify your identity' not 'Authenticate' or 'authenticate credentials' — plain language is less technical. Write 'Payment' not 'Transaction' or 'disbursement' — it is the most widely understood term. Write 'Code' or 'passcode' not 'OTP' or 'one-time password' — avoid acronyms without explanation. Write 'Card details' not 'Card credentials' or 'PAN' — everyday language serves users better. Write 'Something went wrong' not 'Error', 'system failure', or 'exception' — it is human and non-alarming. Write 'We couldn't complete this' not 'Transaction declined' or 'rejected' — it is less confrontational. Write 'Secured with Visa Secure' not '3DS', 'EMV 3DS', or '3-D Secure' — always use the brandname in consumer UI. Write 'Learn more' not 'Click here', 'find out more', or 'read more' — it is standard accessible link text. Write 'Try again' not 'Retry' or 're-initiate' — it is plain and direct. Write 'Add card' not 'Register card' or 'add payment instrument' — it is concise and familiar."
+"what does first person, and second person mean in this context","In the context of writing clear and concise instructions, using ""first person"" or ""second person"" refers to whether you're addressing:
+
+**First Person:**
+
+* Using ""you"" directly (e.g., ""Please confirm your payment information"", ""Can I help you with that?"")
+* Telling a user what action to take
+* Making it clear that the instruction is for them
+
+Example:
+* When writing instructions, using first person can make users feel more empowered and in control. For instance:
+	+ ""You need to confirm your payment information""
+	+ ""We'll help you with that""
+
+**Second Person:**
+
+* Using phrases that address a user directly (e.g., ""Please tell me"" or ""I want to help"")
+* Telling the user what action to take
+* Making it clear that the instruction is for them
+
+Example:
+* When writing instructions, using second person can make users feel more engaged and responsible. For instance:
+	+ ""Please provide your payment information""
+	+ ""Let me assist you with that""
+
+By using first person or second person, you can create a more conversational tone and reduce cognitive load on the user.
+
+Example:
+```
+  Payment Options
+  Select a payment method: [1-3]
+  Please tell me which payment option you'd like to use.
+  Confirm your payment information.
+  Proceed with payment.
+```
+In this example, using ""you"" directly makes it clear that the instruction is for the user."," When addressing users, use second person (you/your) as the default. It is more direct and feels human. Use first person (I/my) only when the user is taking clear ownership of a choice or piece of content. For general instructions, use 'Your payment is ready' rather than 'The payment is ready'. For the user's own content in navigation, use 'My cards' or 'My account' rather than 'Your cards'. Never mix 'my'/'me' and 'you'/'your' in the same phrase or sentence. Mixing perspectives creates confusion about whose point of view the product is speaking from.
+
+For voice and tone, check: does it match the tone for this moment? Is it using you/your or I/my for owned items — but not both? Is it calm with no alarm words and no overclaiming of security? Does it sound like something a helpful person would actually say?"
+what is first person?,"**First Person** refers to a writing style where:
+
+1. **The subject of the sentence is the same as the narrator**: The sentence starts with ""I"", ""We"", or other singular pronouns, indicating that the narrative is being told from an individual's point of view.
+2. **The language is informal and conversational**: First-person writing tends to be more casual and relaxed in its tone.
+
+Examples:
+
+* I will tell you what to do next.
+* We need your information to proceed.
+* Can you please help me with that?
+
+**Second Person**, on the other hand, refers to a writing style where:
+
+1. **The subject of the sentence is ""you""**: The sentence starts with ""You"", indicating that the narrator is addressing the reader directly.
+2. **The language is formal and imperative**: Second-person writing tends to be more direct and explicit in its instructions.
+
+Examples:
+
+* Please tell me what to do next.
+* I want you to follow these steps.
+* You need to confirm your payment information.
+
+By using first person or second person, writers can tailor their tone and style to meet the specific needs of their audience.","When addressing users, use second person (you/your) as the default. It is more direct and feels human. Use first person (I/my) only when the user is taking clear ownership of a choice or piece of content. For general instructions, use 'Your payment is ready' rather than 'The payment is ready'. For the user's own content in navigation, use 'My cards' or 'Myaccount' rather than 'Your cards'. Never mix 'my'/'me' and 'you'/'your' in the same phrase or sentence. Mixing perspectives creates confusion about whose point of view the product is speaking from.
+
+Voice is who we are across every interaction. Tone is how we adjust to each situation. Voice stays consistent; tone adapts."
+How should pronouns be applied for general instructions?,"When writing general instructions, use **first person** when:
+
+1. Addressing a reader directly (e.g., ""You need to confirm your payment information"")
+2. Telling them what action to take
+3. Making it clear that the instruction is for them
+
+Examples:
+* I will show you how to do this.
+* You need to follow these steps.
+
+When writing instructions, use **second person** when:
+
+1. Addressing a reader indirectly (e.g., ""Please confirm your payment information"")
+2. Telling them what action to take or what they should do
+3. Making it clear that the instruction is for someone else
+
+Examples:
+* Please tell me how to proceed.
+* We will guide you through this process.
+
+By using first person or second person, writers can create a more personal and interactive tone in their instructions.","When addressing users, use second person (you/your) as the default. It is more direct and feels human. Use first person (I/my) only when the user is taking clear ownership of a choice or piece of content. For general instructions, use 'Your payment is ready' rather than 'The payment is ready'. For the user's own content in navigation, use 'My cards' or 'My account' rather than 'Your cards'. Never mix 'my'/'me' and 'you'/'your' in the same phrase or sentence. Mixing perspectives creates confusion about whose point of view the product is speaking from.
+
+For reading level, aim for a reading level accessible to any adult user. Keep sentences short — under 20 words where possible. Use one idea per sentence. Choose common words over technical terms. Use active voice over passive voice."
+Can I write 'my' and 'your' in the same phrase or sentence?,"**Yes**, you can write ""my"" and ""your"" together in the same phrase or sentence.
+
+Examples:
+
+* My payment information.
+* Your payment details are needed to proceed.
+* Please confirm your (your) payment information.
+
+In this case, using ""my"" and ""your"" together shows that they refer to a singular entity, making it clear which person's information is being requested.
+
+This is called **subject-verb agreement**, where the verb agrees with the subject in number. In this example:
+
+* The subject is ""payment information"", so ""you"" must be the object (the recipient of the payment)
+* Therefore, ""my"" and ""your"" together indicate that it's referring to one person
+
+Using first person singular pronouns like ""I"" or ""me"" can also convey a sense of intimacy or direct address, but using both ""my"" and ""your"" together in the same phrase is generally acceptable.","When addressing users, use second person (you/your) as the default. It is more direct and feels human. Use first person (I/my) only when the user is taking clear ownership of a choice or piece of content. For general instructions, use 'Your payment is ready' rather than 'The payment is ready'. For the user's own content in navigation, use 'My cards' or 'Myaccount' rather than 'Your cards'. Never mix 'my'/'me' and 'you'/'your' in the same phrase or sentence. Mixing perspectives creates confusion about whose point of view the product is speaking from.
+
+For voice and tone, check: does it match the tone for this moment? Is it using you/your or I/my for owned items — but not both? Is it calm with no alarm words and no overclaiming of security? Does it sound like something a helpful person would actually say?"
+How should information overload be avoided?,"To avoid information overload:
+
+1. **Use clear and concise language**: Avoid using complex sentences or jargon that might confuse users.
+2. **Break up long blocks of text**: Divide lengthy instructions into shorter paragraphs or bullet points to make it easier to scan.
+3. **Provide context**: Give context about the topic, including relevant background information and definitions.
+4. **Use headings and subheadings**: Organize content with clear headings and subheadings to help users navigate the information.
+5. **Prioritize key information**: Highlight or emphasize critical points and avoid cluttering the text with unnecessary details.
+6. **Use simple and descriptive vocabulary**: Avoid using technical terms or jargon that might be unfamiliar to some users.
+7. **Consider user personas**: Tailor content to specific groups of users, such as beginners or experts in a particular field.
+
+By incorporating these strategies, you can make your instructions more readable and digestible for your audience.
+
+Here's an example of how information overload could be avoided:
+
+**Before**
+""Please verify your payment information by checking the following details:...""
+
+**After**
+""Verify your payment information using the following steps:
+• Check the amount due
+• Ensure accurate routing information
+• Confirm your name and address""
+
+By breaking up long blocks of text, providing context, and prioritizing key information, we can avoid information overload and make our instructions more accessible and effective.","These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence.
+
+For reading level, aim for a reading level accessible to any adult user. Keep sentences short — under 20 words where possible. Use one idea per sentence. Choose common words over technical terms. Use active voice over passive voice."
+Write a validation error message for an invalid email address format,"Here's an example of a validation error message that confirms an invalid email address format:
+
+**Error Message**
+Invalid Email Format
+
+**Example Code (HTML)**
+```
+<p>Invalid email format</p>
+<p>Examples: <b>username</b>.<b>domain</b></p>
+```
+
+**Example Code (CSS)**
+```
+#error-format {
+  color: red;
+}
+```
+
+This error message clearly conveys that the provided email address is invalid and highlights an example of a correct format. It also provides a visual cue by highlighting the text in red, making it more attention-grabbing.
+
+Alternatively, you can use HTML and CSS to create a custom validation error message with a specific design:
+
+```
+<style>
+  #error-format {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+  }
+</style>
+
+<p id=""error-format"">Invalid Email Format</p>
+```
+
+This code creates a custom error message with a specific design, making it more visually appealing and effective at conveying the expected outcome.","For error messages, check: does it state what happened? Does it say what to do next? Does it avoid raw error codes in the user-facing text? Is it supportive and non-blaming?
+
+Never show raw error codes such as 'Error 4031' or 'ERR_AUTH_FAIL' to users. Log them internally and show a human message instead. If a code is legally required, place it in small secondary text below the main message."
+What is a better alternative to 'You have 3 remaining attempts after that your account is temporarily suspended'?,"A better alternative could be:
+
+**""After you've exhausted all three attempts, we'll permanently suspend your account.""**
+
+This message provides more clarity and consequences for the user's actions. The following reasons suggest why this is a better approach:
+
+* **Explicit consequences**: Clearly states what will happen if the user doesn't meet their expected number of attempts.
+* **Reduced ambiguity**: Uses ""permanently suspended"" to avoid ambiguous language, making it clear that there are no more chances for the account to be restored.
+* **Simplifies explanation**: Provides a straightforward explanation of why the account was temporarily suspended, without using complex technical jargon.
+
+Alternatively, you could also use:
+
+**""We've exhausted all three attempts. We'll need to take further action.""**
+
+This message still conveys that the user has not met their expected number of attempts and provides more detail about what's happening next. However, it might be slightly less effective in conveying the consequences for the account.
+
+Ultimately, the best approach depends on your specific requirements, audience, and brand tone.","  Communicate only essential details: every screen has a job. Only include information that helps the usercomplete that specific task. Avoid information overload, especially during payment and authentication flows. Write 'Enter the 6-digit code we sent to +20 .... 4521' not a sentence explaining that a one-time verification code has been dispatched to your registered mobile number for security purposes. Write '3 attempts remaining' not 'You have 3 remaining attempts before your account is temporarily suspended'. Write 'Card ending in 4242 charged 49.99' not a full sentence restating the card type, digits, and amount.
+
+ For error message writing, errors are where trust is most at risk. A good error message has three parts:what happened, why if helpful, and what to do next. For a user input error, state what is wrong and what to fix — write 'Card number must be 16 digits'. For a declined payment, state the outcome calmly and suggest an action — write 'We couldn't completethis payment. Try a different card or contact your bank.' For a system or network error, own the problem and give next steps —write 'Something went wrong on our end. Please try again in a moment.' For a session timeout, explain why and offer a path forward — write 'You've been signed out for your security. Sign in to continue.' For a failed authentication, stay calm and offer a retry or help — write 'We couldn't verify your identity. Try again or contact your bank.'"
+"write a full sentence restating the card type, digits, and amount example to be displayed to user?","Here's an example of a full sentence that can be used to display information about a card type, digits, and amount:
+
+**Card Information**
+
+Please note that this is your payment card details. Please enter them correctly below.
+
+* Card Type: [Insert Card Type e.g. Visa, Mastercard]
+* Payment Digits: [Insert payment digits e.g. 1234-5678]
+* Card Amount: $[Amount]
+
+Example:
+
+**Card Information**
+
+Please note that this is your payment card details. Please enter them correctly below.
+
+* Card Type: Visa
+* Payment Digits: 12345678
+* Card Amount: 19.99
+
+In this example, the sentence clearly states what information to enter and provides a clear and concise message for the user. The use of ""Please note that"" helps to guide the user towards entering the correct details without prompting them again or using ambiguous language.","When writing for the product, be concise and not robotic: write short, scannable text. Users in a payment flow are focused — give them only what they need. Write 'Confirm payment' not 'Please proceed to confirm your payment'. Write 'Add your card details' not 'Please enter your card information below'. Write 'We couldn't process this' not 'An error has occurred during payment processing'.
+
+ These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence."
+what rule should we follow to  structure sentences in checkout?,"To structure sentences in Checkout effectively, consider the following rules:
+
+1. **Clear and concise**: Avoid complex sentence structures that might confuse users.
+2. **Active voice**: Use active voice instead of passive voice whenever possible (e.g., ""You will be charged"" instead of ""You will be charged by your bank"").
+3. **Simple language**: Use everyday language to describe transactions, avoiding jargon or technical terms unless necessary.
+4. **Logical flow**: Arrange sentences in a logical order, starting with the most important information first (e.g., card type and payment amount).
+5. **Use bullet points or numbered lists**: Break up long blocks of text into smaller, more digestible chunks using bullet points or numbered lists.
+
+Example:
+
+**Card Information**
+
+* Card Type: Visa
+* Payment Digits: 1234-5678
+* Card Amount: $19.99
+
+By following these rules, you can create a clear and concise Checkout experience that helps users navigate the transaction process efficiently.","Start sentences with the user's goal: structure sentences so the user's objective comes first. This mirrors how users think and speeds up comprehension in checkout and payment flows. Write 'To add a card, tap the + icon' not 'Tap the + icon if you would like to add a card'. Write 'To pay, confirm your amount below' not 'Confirm your amount below if you'd like to pay'. Write 'To cancel, tap Back' not 'Back should be tapped in order to cancel'.
+
+For general word choice, use common, everyday words that any reader would understand on first read. Write in the present tense: 'Your payment is processing' not 'Your payment will be processed'. Use numerals (1, 2, 3) not spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens — never use 'confirm', 'approve', and 'authorise' interchangeably for the same action."
+Why should we structure sentences so the user's objective comes first in checkouk?,"Structuring sentences in Checkout to prioritize the user's objective first is a crucial aspect of creating an effective checkout experience. Here are some reasons why:
+
+1. **Improves conversion rates**: By placing the most critical information, such as card type and payment amount, at the beginning of the sentence, users are more likely to focus on completing their transaction.
+2. **Reduces cognitive load**: Prioritizing the user's objective helps reduce cognitive load by guiding them through the process without unnecessary distractions or complexities.
+3. **Enhances clarity**: Structuring sentences in this way makes it clear what information is required for the checkout process, reducing confusion and frustration.
+
+To achieve this, consider using sentence structures like:
+
+1. **""Card Type"" followed by ""Payment Digits"" and ""Amount"":** e.g., ""Card Type: Visa, Payment Digits: 1234-5678, Card Amount: $19.99""
+2. **""Start with [Most Important Information]""**: e.g., ""Your card type is [e.g., Visa]...""
+3. **Use bullet points or numbered lists**: to break up long blocks of text and highlight key information.
+
+By structuring sentences in this way, you can create an effective Checkout experience that guides users through the process with ease and minimizes cognitive load."," Start sentences with the user's goal: structure sentences so the user's objective comes first. This mirrors how users think and speeds up comprehension in checkout and payment flows. Write 'To add a card, tap the + icon' not 'Tap the + icon if you would like to add a card'. Write 'To pay, confirm your amount below' not 'Confirm your amount below if you'd like to pay'. Write 'To cancel, tap Back' not 'Back should be tapped in order to cancel'.
+
+Before any UI text goes live, run through this quick reference checklist. For writing quality, check: is the message under 20 words? Does it start with the user's goal? Is it in present tense? Does it use common words with no jargon and no acronyms? Does it say only what the user needs to know right now? Is the button label a verb that completes 'I want to...'?"
+What are the goal-first alternatives to 'Tap  icon name  if you would like to [goal]'?,"When using ""Goal-First"" alternatives to ""Tap Icon Name If You Would Like To"", consider:
+
+1. **""Icon Name"" followed by ""If You Want To ""**: e.g., ""Icon Name: Pay Card, If You Want To Pay Now""
+2. **""Action Name"" followed by ""If You Choose to ""**: e.g., ""Transaction Type: Payment, If You Choose to Complete""
+
+These alternatives prioritize the user's goal first and provide a clear instruction on what action to take.
+
+By using Goal-First structures, you can:
+
+* Reduce cognitive load
+* Improve conversion rates
+* Enhance clarity
+
+Examples:
+
+**Goal-First Alternative**
+If you want to pay now, please tap ""Pay Card"" icon.
+
+**Common Alternatives**
+
+* If You Want To Pay Now, Tap ""Pay Card""
+* If You Choose to Pay Now, Tap ""Pay Card""
+
+By using these Goal-First alternatives, you can create a clear and intuitive checkout experience that guides users towards completing their payment.","Start sentences with the user's goal: structure sentences so the user's objective comes first. This mirrors how users think and speeds up comprehension in checkout and payment flows. Write 'To add a card, tap the + icon' not 'Tap the + icon if you would like to add a card'. Write 'To pay, confirm your amount below' not 'Confirm your amount below if you'd like to pay'. Write 'To cancel, tap Back' not 'Back should be tapped in order to cancel'.
+
+For primary button and label writing, use verb-first labels: 'Pay now', 'Add card', 'Verify identity', 'Send money'. Be specific — 'Confirm' is weaker than 'Pay 49.99'. Primary button CTA text should complete the sentence 'I want to...'. Avoid generic labels like OK, Yes, No, Submit, or Click here. Write 'Pay 49.99' not 'Submit'. Write 'Add card' not 'Add payment method'. Write 'Verify identity' not 'Authenticate'. Write 'Send to James' not 'Send'. Write 'Try again' not 'OK'."
+What is a good alternative to ' go Back to previous'?,"A good alternative to ""Go Back to Previous"" could be:
+
+**""Take Me Back to [Previous Page/State]""**
+
+or
+
+**""Return to [Previous] Page""**
+
+These alternatives are concise, clear, and provide a direct link back to the previous page or state.
+
+Here's an example of how you can use these alternatives in your checkout flow:
+
+**Checkout Flow**
+* If you want to pay now, please tap ""Pay Card"".
+* Go Back to Previous: Take Me Back to [Previous] Page
+* After completing payment, Go Back to Previous: Return to [Previous] Page
+
+Using these alternatives makes it easy for users to return to a previous state, reducing friction and improving the overall checkout experience."," For secondary button writing, use clear, action-oriented labels that describe the alternative path available to the user. Secondary button CTA text should help users postpone, review, return, or exit an action without creating uncertainty. Be specific — 'Review details' is clearer than 'Back'. Secondary button text should clearly communicate what happens next and should never force users to guess the outcome. Avoid generic labels such as Back, Cancel, No, Close, Dismiss, or OK when a more descriptive alternative is possible. Write 'Review details' not 'Back'. Write 'Maybe later' not 'Cancel'. Write 'Return to card settings' not 'Close'. Write 'Choose another card' not 'No'. Write 'Continue editing' not 'Dismiss'. Secondary CTAs should reduce ambiguity, support user control, and provide a clear alternative to the primary action.
+ For snackbar and toast writing, snackbars are low priority and disappear automatically. Use them for confirmations of routine actions. Keep them to 1–2 lines. State what just happened, using past tense for completed actions. Optionally include one action button if the user may want to undo or view details. For a payment sent, write 'Payment of 49.99 sent' with an optional 'View receipt' action. For a card added, write 'Card added' with an optional 'Manage cards' action. For a card removed, write 'Card removed' with an optional 'Undo' action. For saved settings, write 'Changes saved' with no action needed."
+How should we write the tenses in different situations in the product?,"When writing product descriptions or instructions, consider using **simple past tense** for:
+
+* Completed actions
+* Events that have already occurred
+* Past tense is usually used to describe events that happened at a specific time.
+
+Examples:
+
+* ""The payment has been processed."" (Here, the action of processing is completed)
+* ""I sent an email to my friend yesterday."" (Here, the action of sending an email happened yesterday)
+
+Avoid using **future tense** for:
+
+* Predictive actions
+* Future plans
+* Uncertain situations
+
+Examples:
+
+* ""We will send you a confirmation email shortly."" (Here, the action is predicted and not yet completed)
+* ""I plan to attend the conference next month."" (Here, the action is future and uncertain)
+
+Also, consider using **present tense** for:
+
+* Ongoing actions
+* Normal or routine activities
+* Common or everyday situations
+
+Examples:
+
+* ""We are processing your payment."" (Here, the action of processing is ongoing)
+* ""I am sending you an email as we speak."" (Here, the action of sending an email is happening now)
+
+By using simple past tense for completed actions and future tense for predictive actions, you can create a clear and concise product description or instruction that guides users through the process."," For general word choice, use common, everyday words that any reader would understand on first read. Write in the present tense: 'Your payment is processing' not 'Your payment will be processed'. Use numerals (1, 2, 3) not spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens — never use 'confirm', 'approve', and 'authorise' interchangeably for the same action.
+
+ When writing for the product, be concise and not robotic: write short, scannable text. Users in a payment flow are focused — give them only what they need. Write 'Confirm payment' not 'Please proceed to confirm your payment'. Write'Add your card details' not 'Please enter your card information below'. Write 'We couldn't process this' not 'An error has occurred during payment processing'."
+How should numbers be formatted within UI text and instructions?,"When formatting numbers within UI text and instructions, consider the following guidelines:
+
+1. **Use digits**: Use only digits to represent quantities or amounts.
+2. **Avoid using words like ""one"", ""two"", etc.**: Instead, use numerical values (e.g., 10, 20) to avoid confusion.
+3. **Specify decimal places**: Indicate decimal places with a dot or comma (e.g., $1.99).
+4. **Use consistent formatting**: Use consistent font sizes and styles throughout the UI text and instructions.
+
+Here are some examples:
+
+**UI Text**
+* ""The price is 19.99"" ($19.99)
+* ""You have 5 units remaining""
+
+**Instruction**
+
+* ""To purchase, please enter the following details: quantity (e.g., 2), unit price ($1.50)""
+* ""Your total comes out to be $18.75""
+
+When formatting numbers, make sure they are aligned correctly and consistent throughout the UI text and instructions.
+
+Avoid using:
+
+* **Arabic numerals**: Use only digits for quantities or amounts.
+* **Currency symbols**: Avoid using currency symbols (e.g., ""$"", ""¥"") unless it's a specific format that requires them (e.g., in a currency exchange).
+* **Percentage signs (%)**: Only use percentage signs for percentages (%), not for numbers.
+
+By following these guidelines, you can create clear and concise UI text and instructions that accurately convey numerical information."," These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply anddirectly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first,specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence.
+
+ For general word choice, use common, everyday words that any reader would understand on first read. Write in the present tense: 'Your payment is processing' not 'Your payment will be processed'. Use numerals (1, 2, 3) not spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens — never use 'confirm', 'approve', and 'authorise' interchangeably for the same action."
+How should UI elements be referred to in copy?,"When writing copy for UI elements, consider the following guidelines:
+
+1. **Use descriptive language**: Instead of simply referencing the element as ""button"", mention its purpose, design, or functionality.
+2. **Be concise and clear**: Avoid using jargon or technical terms unless they're essential to the concept.
+3. **Use action verbs**: Use verbs like ""click"", ""tap"", ""hover"" to convey a sense of interaction.
+
+Here are some examples:
+
+**UI Copy**
+
+* ""Click on the button below to start shopping.""
+* ""Tap this link to access your favorite products.""
+* ""Hover over the image to view detailed product information.""
+
+In these examples, I used descriptive language and action verbs to create engaging UI copy that guides users through the process.
+
+Avoid using:
+
+* **Generic phrases**: Phrases like ""view"" or ""select"" are too vague.
+* **Technical terms**: Unless they're essential, use technical terms like ""login"", ""logout"", etc. instead of ""click"".
+* **Unnecessary words**: Remove unnecessary words like ""press"" or ""tap"", as they can make the copy feel repetitive.
+
+By using descriptive language and concise writing, you can create effective UI copy that communicates clearly and effectively with your users.","The content matrix is used to track, audit, and maintain writing decisions across the product. Every piece of recurring UI text should have an entry. Each entry should record the screen or component where the text appears, the user's goal at that moment, the information the user needs to know in plain non-UI language, a draft version of the UI copy, the final approved live text, the tone applied, the component type such as dialog, snackbar, button, label, or notification, words to use in that context, words to avoid, whether Visa Secure rules were applied and which ones, whether accessibility was checked including alt text, label, and WCAG AA pass, and who is responsible for the content and when it was last reviewed.
+
+These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence."
+"What is the rule regarding the interchangeable use of terms like 'confirm', 'approve' for the same action?","The rule is to use **distinct** terminology for each action, rather than using interchangeable terms like ""confirm"" or ""approve"".
+
+Here's why:
+
+1. **Avoid confusion**: Using different words for similar actions can lead to confusion, especially if the context changes.
+2. **Improve clarity**: Clear and distinct language helps users understand what they need to do without ambiguity.
+3. **Enhance brand consistency**: Consistent terminology enhances your brand's identity and builds trust with customers.
+
+Instead of using interchangeable terms like ""confirm"" or ""approve"", consider these alternatives:
+
+* ""Confirm""
+* ""Verify""
+* ""Submit""
+* ""Save""
+* ""Finish""
+
+By using distinct terminology, you can create a more seamless and intuitive experience for your users.","For general word choice, use common, everyday words that any reader would understand on first read. Write in the present tense: 'Your payment is processing' not 'Your payment will be processed'. Use numerals (1, 2, 3) not spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens — never use 'confirm', 'approve', and 'authorise' interchangeably for the same action.
+
+  When writing for the product, be concise and not robotic: write short, scannable text. Users in a payment flow are focused — give them only what they need. Write 'Confirm payment' not 'Please proceed to confirm your payment'. Write'Add your card details' not 'Please enter your card information below'. Write 'We couldn't process this' not 'An error has occurred during payment processing'."
+Which anxiety-inducing words  must be avoided in routine authentication flows?,"When writing routine authentication flows, it's best to avoid the following anxiety-inducing words:
+
+1. **Too much repetition**: Words like ""click"", ""tap"", ""enter"" can create a sense of expectation and frustration.
+2. **Negative connotations**: Phrases like ""You've already tried this"" or ""We're not sure if you want to do that"" can undermine trust.
+3. **Too specific**: Using too many technical terms (e.g., ""SSL certificate verification"", ""HTTPS protocol"") can make the process feel opaque and overwhelming.
+
+Here are some examples of anxiety-inducing words that should be avoided:
+
+* ""Click here""
+* ""Please enter your password""
+* ""We need to verify your identity""
+* ""Don't try again""
+
+Instead, opt for more neutral language that focuses on:
+
+1. **Ease of use**: Use phrases like ""Try it now"" or ""Complete the action"".
+2. **Clarity**: Avoid ambiguous terms and focus on specific details.
+3. **Helpfulness**: Emphasize the benefits of completing the action.
+
+By avoiding anxiety-inducing words, you can create a more streamlined and user-friendly experience for your users.","Avoid these word-choice patterns: never expose technical protocol names such as EMV, 3DS, VbV, PAN, or tokenisation directly in consumer-facing UI unless they are explained. These terms belong in developer or support documentation only. Avoid words like 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine authentication flows — they cause unnecessary anxiety and can increase abandonment rates. Never say '100% secure', 'fraud-proof', or 'guaranteed safe'. These claims are inaccurate and create legal exposure. Use 'secured with Visa Secure' or 'verified by Visa' instead.
+
+Write simply and directly: plain language is not dumbing down — it is respecting the user's attention. Always ask: is there a simpler way to say this? Write 'Verify your identity' not 'Authenticate your credentials'. Write 'Your card has been added' not 'Card tokenisation was successful'. Write 'Try again' not 'Re-initiate the transaction'."
+What approved branding phrases should be used instead of overclaiming security safety?,"When writing approval branding phrases that emphasize security and safety, consider using:
+
+1. **Neutral language**: Use straightforward terms like ""Protects you"" or ""Ensures security"", without making exaggerated claims.
+2. **Descriptive language**: Use words that describe the specific protection mechanisms in place (e.g., ""256-bit encryption"", ""SSL/TLS protocol"").
+
+Here are some examples of approved branding phrases:
+
+* ""Our website uses 256-bit SSL to protect your data.""
+* ""We're proud to offer an industry-standard secure payment gateway.""
+* ""Your personal data is safe with our strict security protocols.""
+
+Avoid using phrases like:
+
+* **Overly technical terms**: Use clear and concise language instead, without making unnecessary claims.
+* **Emphasis on specific features**: Phrases that highlight specific security measures can be misleading if taken out of context.
+
+Here are some examples of overclaimed security phrases to avoid:
+
+* ""Our website is completely secure, thanks to our state-of-the-art SSL protocol.""
+* ""Don't worry about your data's safety – we've got it covered!""
+* ""Your data will be encrypted and transmitted securely.""
+
+By using neutral language and descriptive terms, you can create a more trustworthy branding image that emphasizes the security of your services."," Avoid these word-choice patterns: never expose technical protocol names such as EMV, 3DS, VbV, PAN, or tokenisation directly in consumer-facing UI unless they are explained. These terms belong in developer or support documentation only. Avoid words like 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine authentication flows — they cause unnecessary anxiety and can increase abandonment rates. Never say '100% secure', 'fraud-proof', or 'guaranteed safe'. These claims are inaccurate and create legal exposure. Use 'secured with Visa Secure' or 'verified by Visa' instead.
+
+ For Visa Secure naming rules, always write the program name as 'Visa Secure' — two words, both capitalised. Never abbreviate, translate, or alter either word. Correct usage is 'Visa Secure' and 'Secured with Visa Secure'. Incorrect usage includes 'visa secure', 'VISA SECURE', 'Visa-Secure', '3DS', 'EMV 3DS', 'Verified by Visa' in consumer UI, or 'Secured by Visa's 3-D Secure system'. The words 'Visa' and 'Secure' must not be translated into any other language. Supporting text such as 'Learn more' may be translated to the local language equivalent."
+"What is the approved, less technical plain language equivalent for 'Authenticate', 'ledger', 'Dispute '  or
+'authenticate credentials'?","Here are some approved, plain language equivalents:
+
+1. **""Verify""**: This phrase is simple and easy to understand, without being too technical.
+2. **""Check in""**: This phrase suggests a more personal and human touch, while still conveying the idea of verifying credentials.
+3. **""Confirm""**: Similar to ""verify"", this phrase is straightforward and clear.
+
+Avoid using:
+
+* **Overly technical terms**: Phrases like ""Authentication protocol"" or ""Digital signature verification"" can be confusing if not explained.
+* **Formal language**: Avoid using overly formal or technical language that may confuse or intimidate users.
+
+Here are some examples of plain language equivalents for the original phrases:
+
+1. **""Authenticate""** -> **""Verify""**
+2. **""Ledger""** -> **""Account""**
+3. **""Dispute""** -> **""Report a problem""**
+
+By using plain language and avoiding overly technical terms, you can create a more accessible and user-friendly experience for your users.
+
+For example:
+
+* ""To ensure that only authorized individuals can access the system, please enter your credentials.""
+* ""We want to make sure that our website is free from malware. Can you report any suspicious activity?""
+* ""If you have reason to believe that someone has attempted to access your account, please contact us immediately."""," For fintech-specific word choices, write 'Verify your identity' not 'Authenticate' or 'authenticate credentials' — plain language is less technical. Write 'Payment' not 'Transaction' or 'disbursement' — it is the most widely understood term. Write 'Code' or 'passcode' not 'OTP' or 'one-time password' — avoid acronyms without explanation. Write 'Card details' not 'Card credentials' or 'PAN' — everyday language serves users better. Write 'Something went wrong' not 'Error', 'system failure', or 'exception' — it is human and non-alarming. Write 'We couldn't complete this' not 'Transaction declined' or 'rejected' — it is less confrontational. Write 'Secured with Visa Secure' not '3DS', 'EMV 3DS', or '3-D Secure' — always use the brandname in consumer UI. Write 'Learn more' not 'Click here', 'find out more', or 'read more' — it is standard accessible link text. Write 'Try again' not 'Retry' or 're-initiate' — it is plain and direct. Write 'Add card' not 'Register card' or 'add payment instrument' — it is concise and familiar.
+
+Write simply and directly: plain language is not dumbing down — it is respecting the user's attention. Always ask: is there a simpler way to say this? Write 'Verify your identity' not 'Authenticate your credentials'. Write 'Your card has been added' not 'Card tokenisation was successful'. Write 'Try again' not 'Re-initiate the transaction'."
+What is the most widely understood term that should replace 'Transaction' or 'disbursement'?,"The most widely understood and straightforward term to use in place of ""Transaction"" or ""Disbursement"" is:
+
+**Payment**
+
+This term is easily understandable by users, as it clearly conveys the concept of transferring money or goods from one party to another.
+
+Here are some examples of alternative terms:
+
+* **Funds transfer**
+* **Deposit/Withdrawal**
+* **Payment processing**
+* **Transfer/Exchange**
+
+Avoid using overly technical terms like ""Financial Transaction"" or ""Business Disbursement"", as they may be unfamiliar to users and convey a sense of complexity.
+
+For example:
+
+* ""To make a payment, please enter your credit card details.""
+* ""Our company offers business loans with flexible repayment plans.""
+
+By using clear and concise language, you can reduce confusion and improve the overall user experience."," For fintech-specific word choices, write 'Verify your identity' not 'Authenticate' or 'authenticate credentials' — plain language is less technical. Write 'Payment' not 'Transaction' or 'disbursement' — it is the most widely understood term. Write 'Code' or 'passcode' not 'OTP' or 'one-time password' — avoid acronyms without explanation. Write 'Card details' not 'Card credentials' or 'PAN' — everyday language serves users better. Write 'Something went wrong' not 'Error', 'system failure', or 'exception' — it is human and non-alarming. Write 'We couldn't complete this' not 'Transaction declined' or 'rejected' — it is less confrontational. Write 'Secured with Visa Secure' not '3DS', 'EMV 3DS', or '3-D Secure' — always use the brandname in consumer UI. Write 'Learn more' not 'Click here', 'find out more', or 'read more' — it is standard accessible link text. Write 'Try again' not 'Retry' or 're-initiate' — it is plain and direct. Write 'Add card' not 'Register card' or 'add payment instrument' — it is concise and familiar.
+
+ For general word choice, use common, everyday words that any reader would understand on first read. Write in the present tense: 'Your payment is processing' not 'Your payment will be processed'. Use numerals (1, 2, 3) not spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens — never use 'confirm', 'approve', and 'authorise' interchangeably for the same action."
+"What word or passcode phrase should replace the acronyms OTP, or 3ds?","The most widely understood and straightforward alternatives to acronyms like ""OTP"" (One-Time Password) and ""3DS"" are:
+
+**PIN**
+
+For ""OTP"", a PIN is a common alternative that conveys the same security concept.
+
+For ""3DS"", consider using:
+
+* **Security Token**
+* **Biometric Authentication**
+* **Passcode**
+
+Avoid using overly technical terms like ""Biometric Keying"" or ""Smart Card Verification"", as they may be unfamiliar to users and convey a sense of complexity.
+
+Here are some examples of alternative phrases:
+
+* ""**Verify your identity**""
+* ""**Use a secure code**""
+* ""**Check the security details**""
+
+By using clear and concise language, you can reduce confusion and improve the overall user experience.","For fintech-specific word choices, write 'Verify your identity' not 'Authenticate' or 'authenticate credentials' — plain language is less technical. Write 'Payment' not 'Transaction' or 'disbursement' — it is the most widely understood term. Write 'Code' or 'passcode' not 'OTP' or 'one-time password' — avoid acronyms without explanation. Write 'Card details' not 'Card credentials' or 'PAN' — everyday language serves users better. Write 'Something went wrong' not 'Error', 'system failure', or 'exception' — it is human and non-alarming. Write 'We couldn't complete this' not 'Transaction declined' or 'rejected' — it is less confrontational. Write 'Secured with Visa Secure' not '3DS', 'EMV 3DS', or '3-D Secure' — always use the brandname in consumer UI. Write 'Learn more' not 'Click here', 'find out more', or 'read more' — it is standard accessible link text. Write 'Try again' not 'Retry' or 're-initiate' — it is plain and direct. Write 'Add card' not 'Register card' or 'add payment instrument' — it is concise and familiar.
+
+Avoid these word-choice patterns: never expose technical protocol names such as EMV, 3DS, VbV, PAN, or tokenisation directly in consumer-facing UI unless they are explained. These terms belong in developer or support documentation only. Avoid words like 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine authentication flows — theycause unnecessary anxiety and can increase abandonment rates. Never say '100% secure', 'fraud-proof', or 'guaranteed safe'. These claims are inaccurate and create legal exposure. Use 'secured with Visa Secure' or 'verified by Visa' instead."
+"What human, non-alarming phrase should replace 'Error', 'system failure', or 'exception'?","The most widely understood and empathetic alternatives to technical terms like ""Error"", ""System Failure"", and ""Exception"" are:
+
+**Warning Message**
+
+This phrase is a clear and concise way to convey that something has gone wrong, without being alarmist.
+
+Here are some examples of alternative phrases:
+
+* ""**An error occurred. Please check the details below.**""
+* ""**A technical issue has been reported. We're working on resolving it as soon as possible.**
+* ""**Something went wrong. We'll do our best to resolve the issue.**
+
+Avoid using overly technical terms like ""System Crash"" or ""Internal Server Error"", as they may be unfamiliar to users and convey a sense of alarm.
+
+For example:
+
+* ""We've encountered an unexpected error, but we're working on resolving it.""
+* ""Our system has experienced some issues, but everything should be okay now.""
+
+By using clear and empathetic language, you can reduce user stress and improve the overall experience.","For error messages, check: does it state what happened? Does it say what to do next? Does it avoid raw error codes in the user-facing text? Is it supportive and non-blaming?
+
+ Never show raw error codes such as 'Error 4031' or 'ERR_AUTH_FAIL' to users. Log them internally and show a human message instead. If a code is legally required, place it in small secondary text below the main message."
+"What is the exact capitalization, spacing, and phrasing rule for writing the program name 'visa secure'?","The exact capitalization, spacing, and phrasing rules for writing the program name ""Visa Secure"" are:
+
+1. **All lowercase letters**: The words ""visa"", ""secure"" should be written in all lowercase letters.
+2. **No spaces between words**: Keep the words ""visa"" and ""secure"" together without any extra spaces.
+3. **Accented letters**: If the word ""Secure"" contains an accented letter, such as ""é"" or ""ü"", it should be written as a single character (e.g., ""Sécurité"") rather than with multiple characters.
+
+Here's an example of how the program name ""Visa Secure"" would be formatted:
+
+* Program Name: Visa Secure
+* Tagline: Your banking experience with Visa
+
+Avoid using overly technical terms like ""Secure Payment Network"" or ""Interbank Information Exchange"", as they may be unfamiliar to users and convey a sense of complexity.
+
+For example:
+
+* ""Our secure payment network protects your financial transactions.""
+* ""We're working on establishing an interbank information exchange to facilitate global trade."""," For Visa Secure naming rules, always write the program name as 'Visa Secure' — two words, both capitalised. Never abbreviate, translate, or alter either word. Correct usage is 'Visa Secure' and 'Secured with Visa Secure'. Incorrect usage includes 'visa secure', 'VISA SECURE', 'Visa-Secure', '3DS', 'EMV 3DS', 'Verified by Visa' in consumer UI, or 'Secured by Visa's 3-D Secure system'. The words 'Visa' and 'Secure' must not be translated into any other language. Supporting text such as 'Learn more' may be translated to the local language equivalent.
+
+ For Visa Secure, if applicable, check: is the program name written as 'Visa Secure' with both words capitalised? Is the badge using Visa-provided artwork with no alterations? Is the badge appearing only once per screen? Does the 'Learn more' link lead to an approved Visa Secure description page? Are the words 'Visa' and 'Secure' not translated? Is the badge free of trademark symbols? Is it not being used as a payment acceptance mark?"
+"Under what circumstances, if any, can the words 'Visa' and 'Secure' be translated into other languages?","The words ""Visa"" and ""Secure"" are typically considered to be English terms and should not need translation. However, there may be instances where they are used in non-English languages:
+
+1. **Specialized terminology**: In some industries or professions, specialized terminology may require adaptation to a new language. For example:
+	* In the financial services sector, words like ""visa"" might need translation into languages like Spanish (tarjeta Visa) or French (carte de crédit Visa).
+	* In the technology sector, terms like ""secure"" might be translated into languages like German (Secure), Japanese ( Sekurei), or Chinese (Secure).
+2. **Language adaptation**: When developing software for non-English speakers, words and phrases may need to be adapted to their local language. For example:
+	* A program's name might be translated from English ""Visa Secure"" into Spanish as ""Tarjeta Visa Segura"".
+3. **Regional differences**: Local languages can have variations in spelling or pronunciation that may require translation. For instance, the word ""visa"" is written with a different letter combination (V-I-S-A) in some countries like Turkey and Bulgaria.
+
+In general, words like ""Visa"" and ""Secure"" are typically considered to be English terms and should not need translation into other languages. However, it's essential to consider regional differences and language adaptations when developing software for non-English speakers.","For Visa Secure naming rules, always write the program name as 'Visa Secure' — two words, both capitalised. Never abbreviate, translate, or alter either word. Correct usage is 'Visa Secure' and 'Secured with Visa Secure'. Incorrectusage includes 'visa secure', 'VISA SECURE', 'Visa-Secure', '3DS', 'EMV 3DS', 'Verified by Visa' in consumer UI, or 'Secured by Visa's 3-D Secure system'. The words 'Visa' and 'Secure' must not be translated into any other language. Supporting text suchas 'Learn more' may be translated to the local language equivalent.
+
+ Avoid these word-choice patterns: never expose technical protocol names such as EMV, 3DS, VbV, PAN, or tokenisation directly in consumer-facing UI unless they are explained. These terms belong in developer or support documentation only. Avoid words like 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine authentication flows — theycause unnecessary anxiety and can increase abandonment rates. Never say '100% secure', 'fraud-proof', or 'guaranteed safe'. These claims are inaccurate and create legal exposure. Use 'secured with Visa Secure' or 'verified by Visa' instead"
+How many times may the Visa Secure badge be used per page or screen?,"The number of times the ""Visa Secure"" badge can be used per page or screen depends on various factors, such as:
+
+1. **Screen resolution and layout**: The badge's placement, size, and color scheme will vary depending on the screen's dimensions and design.
+2. **Content density and hierarchy**: The level of importance assigned to each element (e.g., navigation buttons, alerts) will impact how many times the ""Visa Secure"" badge is used.
+3. **User interface design**: The overall visual consistency and attention given to the badge will influence its frequency of use.
+
+That being said, here are some rough guidelines for using the ""Visa Secure"" badge:
+
+1. **Header or footer**: 2-4 badges (e.g., Visa Secure, Security Alert)
+2. **Navigation menu**: 1-3 badges (e.g., Visa Secure, Payment Protection)
+3. **Alerts and notifications**: 5-10 badges (e.g., Visa Secure, Important Message, Security Reminder)
+4. **Hero or main content**: 2-4 badges (e.g., Visa Secure, Security Overview, Essential Information)
+
+Keep in mind that these are rough estimates, and the actual usage of the ""Visa Secure"" badge will depend on your specific design requirements and user interface.
+
+It's essential to strike a balance between using the badge enough to communicate security information and not overwhelming users with too many notifications or alerts."," For Visa Secure badge display rules, the badge may only be used once per page or screen. It must be equal in visual prominence to any other payment authentication branding shown. Use only Visa-provided artwork from visa.com/brand —do not recreate or alter the badge. Do not place a trademark symbol (TM or R) next to the badge. Do not use the badge to implyendorsement of a product, service, or merchant. Do not use the badge as an acceptance mark — it is an authentication mark, nota payment acceptance mark. Do not contain the badge within a shape such as a circle or square cutout.
+
+For Visa Secure, if applicable, check: is the program name written as 'Visa Secure' with both words capitalised? Is the badge using Visa-provided artwork with no alterations? Is the badge appearing only once per screen? Does the 'Learn more' link lead to an approved Visa Secure description page? Are the words 'Visa' and 'Secure' not translated? Is the badge free of trademark symbols? Is it not being used as a payment acceptance mark?"
+What is the permitted link text for the Visa Secure information link?,"The permitted link text for the ""Visa Secure"" information link should be:
+
+**Secure**
+
+This phrase clearly conveys the security aspect of the link, without being redundant or repetitive.
+
+Avoid using phrases like ""Check out our secure site"", ""Visit our safe website"", or other similar terms that might be confusing to users. Instead, use the straightforward and descriptive language, such as:
+
+* **Secure**: This is a natural phrase that conveys the security aspect of the link.
+* **Verify your identity**: This phrase still conveys security information without being redundant.
+* **Our site is secure**: This phrase also conveys security information without repeating yourself.
+
+Remember to keep the link text concise, clear, and free from ambiguity.","For 'Learn more' link text related to Visa Secure, the Visa Secure badge may appear with a 'Learn more' link. The link text must read 'Learn more' or an approved equivalent — contact Visa if using alternative phrasing. 'Learn more' may be translated into the local language. The link must lead to a Visa-provided Visa Secure service description page, or an issuer or merchant security information page that explains what Visa Secure is. The service description page must explain what Visa Secure is and how to get more information. The approved service description page template reads: 'As a [Issuer name] Visa cardholder, your transaction is secured with Visa. To learn more, click the 'Learn more' link below.'
+
+For Visa Secure, if applicable, check: is the program name written as 'Visa Secure' with both words capitalised? Is the badge using Visa-provided artwork with no alterations? Is the badge appearing only once per screen? Does the 'Learn more' link lead to an approved Visa Secure description page? Are the words 'Visa' and 'Secure' not translated? Is the badge free of trademark symbols? Is it not being used as a payment acceptance mark?"
+"When displaying data about visa secure where must the 'Learn more' link lead , and what must the destination page explain?","The ""Learn More"" link should lead to a **Destination Page** that explains the concept of Visa Secure in detail.
+
+Here's an example of what the Destination Page could be:
+
+**Page Title**: Visa Secure: Protecting Your Identity and Finances
+
+**Content Block 1:** Introducing Visa Secure
+-----------------------------------
+
+ Visa Secure is a cutting-edge security solution designed to protect your identity and finances. It uses advanced technology to verify transactions, detect suspicious activity, and prevent unauthorized access.
+
+**Visual Illustration**: A simple diagram or infographic explaining the concept of Visa Secure.
+
+**Content Block 2:** Benefits of Visa Secure
+
+Benefits of Visa Secure:
+1. **Enhanced Security**: Advanced security features protect your identity and finances.
+2. **Increased Confidence**: You have complete peace of mind, knowing that sensitive information is secure.
+3. **Improved Efficiency**: Quick and easy transactions are made possible by Visa Secure.
+
+**Visual Illustration**: A series of images or animations demonstrating the benefits of Visa Secure.
+
+**Content Block 3:** What is Visa Secure?
+---------------------------------
+
+Visa Secure is a robust security solution that uses cutting-edge technology to protect your identity and finances. It's designed to work seamlessly with existing financial systems, ensuring smooth transactions and minimizing disruptions.
+
+**Visual Illustration**: A detailed diagram or infographic explaining the technical details of Visa Secure.
+
+By leading the ""Learn More"" link to a Destination Page that explains Visa Secure in detail, you'll provide users with valuable information about the benefits and features of the service.","For 'Learn more' link text related to Visa Secure, the Visa Secure badge may appear with a 'Learn more' link. The link text must read 'Learn more' or an approved equivalent — contact Visa if using alternative phrasing. 'Learn more' may be translated into the local language. The link must lead to a Visa-provided Visa Secure service description page, or an issuer or merchant security information page that explains what Visa Secure is. The service description page must explain what Visa Secure is and how to get more information. The approved service description page template reads: 'As a [Issuer name] Visa cardholder, your transaction is secured with Visa. To learn more, click the 'Learn more' link below.'
+
+For Visa Secure, if applicable, check: is the program name written as 'Visa Secure' with both words capitalised? Is the badge using Visa-provided artwork with no alterations? Is the badge appearing only once per screen? Does the 'Learn more' link lead to an approved Visa Secure description page? Are the words 'Visa' and 'Secure' not translated? Is the badge free of trademark symbols? Is it not being used as a payment acceptance mark?
+ "
+What is the exact template copy required for the approved service description page?,"The exact template copy for an approved service description page should include:
+
+1. **Introduction**: A brief overview of the service, including its purpose, benefits, and key features.
+2. **Key Features**:
+	* Specific details about the service's core functionalities, such as payment processing, identity verification, and security measures.
+	* Examples or demos to showcase the service's capabilities.
+3. **Benefits**:
+	* Quantifiable results, such as increased revenue, reduced risk, or improved customer satisfaction.
+	* Emotional appeals, like enhanced security, peace of mind, or streamlined transactions.
+4. **Technical Details**:
+	* Detailed explanations of the service's technology and infrastructure.
+	* Specifics about data protection, encryption, and compliance with industry standards.
+5. **Security Features**:
+	* Explanation of how the service protects customer data and prevents unauthorized access.
+	* Details on incident response plans, security audits, and third-party certifications.
+6. **Compliance and Regulatory Information**:
+	* Information about any relevant regulatory requirements or industry guidelines that apply to the service.
+7. **Conclusion**: A summary statement highlighting the benefits of using the service.
+
+Here's an example template copy for a approved service description page:
+
+**Introduction**
+
+Our [Service Name] is a cutting-edge payment solution designed to protect your identity and finances. With advanced security features and robust technical infrastructure, you can trust that your transactions are secure and seamless.
+
+**Key Features**
+
+* **Secure Payment Processing**: Our service uses industry-leading encryption and tokenization to ensure secure transaction processing.
+* **Identity Verification**: Our advanced biometric and behavioral authentication methods provide unparalleled protection for sensitive information.
+* **Real-time Monitoring**: Our AI-powered monitoring system continuously scans for suspicious activity, alerting you to potential threats.
+
+**Benefits**
+
+* **Enhanced Security**: With our service, you can enjoy enhanced security and reduced risk of fraud or theft.
+* **Increased Confidence**: You have complete peace of mind knowing that your transactions are secure and trustworthy.
+* **Streamlined Transactions**: Our user-friendly interface makes it easy to initiate and manage payments.
+
+**Technical Details**
+
+Our service leverages the latest technologies in payment processing, including:
+	+ Advanced encryption methods
+	+ Tokenization for secure transaction processing
+	+ AI-powered monitoring systems
+
+**Security Features**
+
+We take security seriously. Here's how we protect your data:
+
+* **Incident Response Plan**: We have a comprehensive plan in place to respond to any security incidents.
+* **Third-Party Certifications**: Our service has been certified by reputable industry organizations, such as PCI-DSS and GDPR.
+
+**Compliance and Regulatory Information**
+
+We comply with all relevant regulatory requirements and industry guidelines. Here are some key compliance notes:
+
+* **PCI-DSS Certification**: Our service is compliant with the Payment Card Industry Data Security Standard.
+* **GDPR Compliance**: We have implemented procedures to ensure GDPR compliance for sensitive customer data.
+
+**Conclusion**
+
+Our [Service Name] is designed to provide you with a secure and trusted payment experience. With our cutting-edge technology, robust security features, and expert support, we're confident that your transactions will be safe and seamless.
+
+This template copy provides a clear overview of the service's key features, benefits, technical details, security features, compliance information, and conclusion.","These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence.
+
+The content matrix is used to track, audit, and maintain writing decisions across the product. Every piece of recurring UI text should have an entry. Each entry should record the screen or component where the text appears, the user's goal at that moment, the information the user needs to know in plain non-UI language, a draft version of the UI copy, the final approved live text, the tone applied, the component type such as dialog, snackbar, button, label, or notification, words to use in that context, words to avoid, whether Visa Secure rules were applied and which ones, whether accessibility was checked including alt text, label, and WCAG AA pass, and who is responsible for the content and when it was last reviewed."
+What is the priority level of dialogs?,"The priority levels for dialog boxes vary depending on the industry, application type, and user experience requirements. Here are some common priority levels:
+
+1. **Low Priority**: For simple or infrequently used features, low-priority dialogs may be displayed immediately.
+2. **Medium Priority**: For more frequently used features, medium-priority dialogs should be displayed when the user initiates a specific action (e.g., ""Open"", ""New"", etc.).
+3. **High Priority**: For critical or high-frequency usage, high-priority dialogs must be displayed as soon as possible.
+4. **Emergency**: In emergency situations, such as an alert about an urgent issue, a high-priority dialog may be displayed immediately.
+
+In general, the following guidelines apply:
+
+* **Immediate Display**: High priority (e.g., login, logout, or dashboard access) should be displayed immediately upon user input.
+* **Loading Delay**: Low to medium priority (e.g., data entry forms, detailed tutorials) can display after a brief delay, allowing for proper processing and validation of input data.
+* **Deferred Display**: Very high priority (e.g., critical updates, password reset) may only be displayed when the user initiates an action or triggers an alert.
+
+When deciding on the priority level of dialogs, consider the following factors:
+
+1. **User experience**: Keep dialogs simple and easy to understand to avoid unnecessary complexity.
+2. **Functionality**: Prioritize the most frequently used features and actions.
+3. **Security**: Ensure that critical dialogs are displayed immediately in high-risk scenarios (e.g., login, logout).
+4. **Industry standards**: Familiarize yourself with industry guidelines for dialog box design, such as those set by standardization organizations or user experience (UX) design communities.
+
+By considering these factors and following established guidelines, you can create effective and efficient dialogs that meet your application's needs while minimizing unnecessary complexity.","Before any UI text goes live, run through this quick reference checklist. For writing quality, check: is the message under 20 words? Does it start with the user's goal? Is it in present tense? Does it use common words with no jargon and no acronyms? Does it say only what the user needs to know right now? Is the button label a verb that completes 'I want to...'?
+
+ For dialog writing, dialogs are highest priority. They block app usage and require an explicit user decision. Reserve them for actions with real consequences: irreversible payments, cancellations, or security actions. The title should be a short, clear statement or question that states what is happening or what the user must decide. The body should contain only the essential detail and any critical consequence. Buttons CTA should use action-first labels that make the choice obvious. Write 'Cancel this payment?' not 'Are you sure?' for the title. Write '49.99 to Netflix will not be charged. This cannot be undone.' not a long passive sentence about the transaction being cancelled and reversed. Write 'Cancel payment' on the buttons, not 'Yes / OK / Confirm' and 'No / Cancel / Go back'."
+What information should the title and the body of a dialog contain?,"The title and body of a dialog box should provide essential information to help users understand what the dialog is about, how it will be used, and what they can expect.
+
+Here's a general outline of what information the title and body of a dialog box should contain:
+
+**Title:**
+
+1. **Clear**: The title should clearly convey what the dialog is about.
+2. **Concise**: Keep the title brief to avoid cluttering the dialog.
+3. **Descriptive**: Use action verbs or phrases like ""Account Management"", ""Payment Processing"", etc.
+
+Example:
+`Account Management`
+
+**Body:**
+
+1. **Problem Description**: Clearly explain the issue or problem that the user is trying to resolve.
+2. **Solution Overview**: Provide a high-level overview of how the dialog will be used to solve the problem.
+3. **Key Steps**: List the most important steps users should take to complete the action.
+4. **Input and Output Required**: Specify what information is required from the user and what output they can expect.
+
+Example:
+`Account Management`
+
+* Problem: Insufficient funds for a payment
+* Solution Overview: Complete transaction using Visa Secure
+* Key Steps:
+	1. Enter account details (e.g., card number, expiration date)
+	2. Confirm payment amount
+* Input and Output Required: Enter required information and receive approved payment
+
+By including this essential information in the title and body of a dialog box, you can help users quickly understand what they are about to do and how it will be used to solve their problem.
+
+Here's an example of what a completed dialog might look like:
+
+**Dialog Box Title:** Account Management
+**Dialog Body:**
+
+`Account Management`
+
+* Problem: Insufficient funds for a payment
+* Solution Overview: Complete transaction using Visa Secure
+* Key Steps:
+	1. Enter account details (e.g., card number, expiration date)
+	2. Confirm payment amount
+* Input and Output Required: Enter required information and receive approved payment
+
+This format provides clear instructions and helps users understand what they are about to do in the context of the dialog box."," For dialog writing, dialogs are highest priority. They block app usage and require an explicit user decision. Reserve them for actions with real consequences: irreversible payments, cancellations, or security actions. The title should be a short, clear statement or question that states what is happening or what the user must decide. The body should contain only the essential detail and any critical consequence. Buttons CTA should use action-first labels that make the choice obvious. Write 'Cancel this payment?' not 'Are you sure?' for the title. Write '49.99 to Netflix will not be charged. This cannot be undone.' not a long passive sentence about the transaction being cancelled and reversed. Write 'Cancel payment' on the buttons, not 'Yes / OK / Confirm' and 'No / Cancel / Go back'.
+
+Before any UI text goes live, run through this quick reference checklist. For writing quality, check: is the message under 20 words? Does it start with the user's goal? Is it in present tense? Does it use common words with no jargon and no acronyms? Does it say only what the user needs to know right now? Is the button label a verb that completes 'I want to...'?"
+What style of action-first labels should dialog CTA buttons use?,"For dialog CTAs (Customer Transaction Actions) such as buttons, it's best to use an **action-first label** style. This means using a label that describes what the user will do with the button (e.g., ""Create"", ""Save"", ""Checkout""), and then providing the actual action the button performs.
+
+Here are some benefits of using action-first labels for dialog CTAs:
+
+1. **Clarity**: Action-first labels make it clear to users what they will be doing when they click on the button.
+2. **Consistency**: Consistent use of this style makes it easy for users to understand and navigate your application's flow.
+3. **Readability**: Action-first labels can help reduce cognitive load by avoiding unnecessary context (e.g., ""Open"", ""Link"").
+
+Here are some examples of action-first label styles for dialog CTAs:
+
+1. **Action-Verb Labels**:
+	* ""Create"": Create a new record
+	* ""Save"": Save changes to the current record
+	* ""Checkout"": Checkout and finalize payment transaction
+2. **Action-State Labels**:
+	* ""Active"": Marked as active (e.g., enabled, selected)
+	* ""Inactive"": Not marked as active (e.g., disabled, unselected)
+
+In your dialog CTAs, you can use these styles to provide a clear and consistent user experience.
+
+Here's an example of how you might style the dialog CTA buttons:
+
+**Dialog Button 1:** Create
+```html
+<button onclick=""createRecord()"">Create</button>
+```
+
+**Dialog Button 2:** Save
+```html
+<button onclick=""saveChanges()"">Save</button>
+```
+
+By using action-first labels in your dialog CTAs, you can create a clear and user-friendly interface that makes it easy for users to navigate through your application's flow.","For secondary button writing, use clear, action-oriented labels that describe the alternative path available to the user. Secondary button CTA text should help users postpone, review, return, or exit an action without creating uncertainty. Be specific — 'Review details' is clearer than 'Back'. Secondary button text should clearly communicate what happens next and should never force users to guess the outcome. Avoid generic labels such as Back, Cancel, No, Close, Dismiss, or OK when a more descriptive alternative is possible. Write 'Review details' not 'Back'. Write 'Maybe later' not 'Cancel'. Write 'Return to card settings' not 'Close'. Write 'Choose another card' not 'No'. Write 'Continue editing' not 'Dismiss'. Secondary CTAs should reduce ambiguity, support user control, and provide a clear alternative to the primary action.
+
+For dialog writing, dialogs are highest priority. They block app usage and require an explicit user decision. Reserve them for actions with real consequences: irreversible payments, cancellations, or security actions. The title should be a short, clear statement or question that states what is happening or what the user must decide. The body should contain only the essential detail and any critical consequence. Buttons CTA should use action-first labels that make the choice obvious. Write 'Cancel this payment?' not 'Are you sure?' for the title. Write '49.99 to Netflix will not be charged. This cannot be undone.' not a long passive sentence about the transaction being cancelled and reversed. Write 'Cancel payment' on the buttons, not 'Yes / OK / Confirm' and 'No / Cancel / Go back'."
+why should we avoid generic terms like 'Are you sure?'  when writing button CTA in the dialog?,"Using generic terms like ""Are you sure?"" in dialog buttons can be problematic because they:
+
+1. **Lack context**: Generic terms don't provide enough information about what's happening, making it difficult for users to understand the context of the action.
+2. **Lead to ambiguity**: Without additional context, users may misinterpret what the button is asking them to do or when.
+3. **Can be triggered by accidental clicks**: If a user doesn't fully read the dialog, they might accidentally click on another button or interact with the interface in unexpected ways.
+
+Instead of generic terms like ""Are you sure?"", consider using more descriptive labels that:
+
+1. **Clearly communicate intent**: Use action-first labels that describe what's happening.
+2. **Provide context**: Include relevant details about what's being asked, such as ""Create"", ""Save"", or ""Checkout"".
+3. **Avoid ambiguity**: Make it clear when an action is taking place.
+
+Here are some examples of more descriptive label styles for dialog buttons:
+
+1. **Action-Verb Labels**:
+	* ""Create a new record""
+	* ""Save changes to the current record""
+2. **Action-State Labels**:
+	* ""Active (Marked as selected)""
+	* ""Inactive (Not marked as selected)""
+
+By using these more descriptive label styles, you can create a clear and user-friendly interface that helps users navigate your application's flow.
+
+Here's an example of how you might style the dialog buttons:
+
+```html
+<!-- Dialog Button 1: Create Record -->
+<button onclick=""createRecord()"">Create a new record</button>
+
+<!-- Dialog Button 2: Save Changes -->
+<button onclick=""saveChanges()"">Save changes to the current record</button>
+```
+
+By using more descriptive label styles, you can create a better experience for your users and reduce errors caused by generic terms.","For dialog writing, dialogs are highest priority. They block app usage and require an explicit user decision. Reserve them for actions with real consequences: irreversible payments, cancellations, or security actions. The title should be a short, clear statement or question that states what is happening or what the user must decide. The body should contain only the essential detail and any critical consequence. Buttons CTA should use action-first labels that make the choice obvious. Write 'Cancel this payment?' not 'Are you sure?' for the title. Write '49.99 to Netflix will not be charged. This cannot be undone.' not a long passive sentence about the transaction being cancelled and reversed. Write 'Cancel payment' on the buttons, not 'Yes / OK / Confirm' and 'No / Cancel / Go back'.
+
+For secondary button writing, use clear, action-oriented labels that describe the alternative path available to the user. Secondary button CTA text should help users postpone, review, return, or exit an action without creating uncertainty. Be specific — 'Review details' is clearer than 'Back'. Secondary button text should clearly communicate what happens next and should never force users to guess the outcome. Avoid generic labels such as Back, Cancel, No, Close, Dismiss, or OK when a more descriptive alternative is possible. Write 'Review details' not 'Back'. Write 'Maybe later' not 'Cancel'. Write 'Return to card settings' not 'Close'. Write 'Choose another card' not 'No'. Write 'Continue editing' not 'Dismiss'. Secondary CTAs should reduce ambiguity, support user control, and provide a clear alternative to the primary action"
+"What is the priority level of snackbars, and how long should they be?","**Priority Level:** The priority level of snack bars varies depending on the industry, application type, and user experience requirements.
+
+For example:
+
+* **Low Priority**: For simple or infrequently used features, low-priority snack bars may be displayed immediately.
+* **Medium Priority**: For more frequently used features, medium-priority snack bars should be displayed when the user initiates a specific action (e.g., ""Open"", ""New"", etc.).
+* **High Priority**: For critical or high-frequency usage, high-priority snack bars must be displayed as soon as possible.
+
+**Duration:** The duration of snack bar displays can also vary depending on factors like:
+
+1. **User behavior**: How users interact with the feature and when they take specific actions.
+2. **Action frequency**: How often users perform a specific action (e.g., ""Create"", ""Save"", etc.).
+3. **System load**: The overall system workload, including performance, resource allocation, and server load.
+
+In general, snack bar durations can range from:
+
+1. **Instant Display**: When the user initiates an action immediately.
+2. **Loading Delay**: After a brief delay (e.g., 100-200ms) to allow for processing and validation of input data.
+3. **Deferred Display**: Only displayed when necessary or when the system load is low.
+
+Consider using snack bars with the following characteristics:
+
+1. **Clear Purpose**: Provide clear guidance on what's happening, such as ""Create a new record"" or ""Update product details"".
+2. **User Intent**: Include relevant information about user intent, such as ""Save changes to the current record"" or ""Checkout and finalize payment transaction"".
+3. **Consistency**: Use consistent snack bar styles throughout your application for better user experience.
+
+By considering these factors, you can create effective snack bars that enhance user experience and reduce errors caused by incomplete or ambiguous guidance.","For snackbar and toast writing, snackbars are low priority and disappear automatically. Use them for confirmations of routine actions. Keep them to 1–2 lines. State what just happened, using past tense for completed actions. Optionally include one action button if the user may want to undo or view details. For a payment sent, write 'Payment of 49.99 sent' with an optional 'View receipt' action. For a card added, write 'Card added' with an optional 'Manage cards' action. For a card removed, write 'Card removed' with an optional 'Undo' action. For saved settings, write 'Changes saved' with no action needed.
+
+Before any UI text goes live, run through this quick reference checklist. For writing quality, check: is the message under 20 words? Does it start with the user's goal? Is it in present tense? Does it use common words with no jargon and no acronyms? Does it say only what the user needs to know right now? Is the button label a verb that completes 'I want to...'?"
+What tense should be used to describe completed actions in a snackbar?,"To correctly use the correct tense to describe completed actions in a snackbar:
+
+**For Infinitive Verbs**: Use the **Past Perfect Tense**, which describes an action that happened before another, previously completed action.
+
+Example:
+`Save changes to the current record (inferred from user input)`
+
+In this sentence, ""save"" is an infinitive verb, and ""current record"" is a noun phrase indicating what was previously saved. The Past Perfect Tense (""(inferred from user input)"") describes the completion of the action.
+
+**For Regular Verbs**: Use the **Past Simple Tense**, which describes a general truth or fact about the completed action without indicating any temporal relationship with another action.
+
+Example:
+`Save changes to the current record`
+
+In this sentence, ""save"" is a regular verb describing an action that happened in the past. The Past Simple Tense simply states what was done without implying a specific order or sequence of events.
+
+**For Imperative Verbs**: Use the **Present Perfect Tense**, which describes an action that started before another action began.
+
+Example:
+`Save changes to the current record (inferred from user input)`
+
+In this sentence, ""save"" is an imperative verb describing an action that happened before the present moment. The Present Perfect Tense indicates a state or condition of being completed in the past and influencing the present.
+
+By using the correct tense for infinitive verbs, regular verbs, and imperative verbs, you can create clear and accurate descriptions of completed actions in your snackbar.","For snackbar and toast writing, snackbars are low priority and disappear automatically. Use them for confirmations of routine actions. Keep them to 1–2 lines. State what just happened, using past tense for completed actions. Optionally include one action button if the user may want to undo or view details. For a payment sent, write 'Payment of 49.99 sent' with an optional 'View receipt' action. For a card added, write 'Card added' with an optional 'Manage cards' action. For a card removed, write 'Card removed' with an optional 'Undo' action. For saved settings, write 'Changes saved' with no action needed.
+
+Before any UI text goes live, run through this quick reference checklist. For writing quality, check: is the message under 20 words? Does it start with the user's goal? Is it in present tense? Does it use common words with no jargon and no acronyms? Does it say only what the user needs to know right now? Is the button label a verb that completes 'I want to...'?"
+What are the essential parts that make up a good error message?,"A good error message should have the following essential parts:
+
+1. **Clear Explanation**: A concise explanation of what went wrong and why.
+2. **Specific Details**: Specific information about the error, including the exact code or data involved.
+3. **Step-by-Step Guidance**: Step-by-step instructions on how to correct the issue or recover from the error.
+4. **Actionable Recommendations**: Clear recommendations for what to do next, such as re-saving a file or restarting an application.
+
+Here's an example of a well-crafted error message:
+
+**Error Message:**
+`File not found: /path/to/file.txt`
+
+* **Clear Explanation:** A clear explanation of the problem and why it occurred.
+* **Specific Details:** Specific information about the exact code or data involved (in this case, `File not found`).
+* **Step-by-Step Guidance:** Step-by-step instructions on how to correct the issue:
+	+ ""Check if the file exists in the specified path.""
+	+ ""Verify that the file is properly saved with a unique filename.""
+	+ ""Restart the application or retry saving the file.""
+
+**Actionable Recommendations:**
+
+* Save the current file.
+* Restart the application.
+
+A good error message should:
+
+1. **Avoid jargon and technical terms**: Use plain language to explain complex concepts.
+2. **Be concise and easy to read**: Avoid lengthy explanations and bullet points; instead, use a simple format with clear headings and short sentences.
+3. **Be transparent about potential solutions**: Clearly indicate whether the error can be resolved on its own or if additional help is required.
+
+By including these essential parts in your error message, you can help users quickly identify what went wrong and how to resolve it.","For error messages, check: does it state what happened? Does it say what to do next? Does it avoid raw error codes in the user-facing text? Is it supportive and non-blaming?
+
+For error message writing, errors are where trust is most at risk. A good error message has three parts: what happened, why if helpful, and what to do next. For a user input error, state what is wrong and what to fix — write 'Card number must be 16 digits'. For a declined payment, state the outcome calmly and suggest an action — write 'We couldn't complete this payment. Try a different card or contact your bank.' For a system or network error, own the problem and give next steps — write 'Something went wrong on our end. Please try again in a moment.' For a session timeout, explain why and offer a path forward — write 'You've been signed out for your security. Sign in to continue.' For a failed authentication, stay calm and offer a retry or help — write 'We couldn't verify your identity. Try again or contact your bank.'"
+What is the absolute rule regarding displaying raw error codes  to users?,"The absolute rule regarding displaying raw error codes to users is:
+
+**Never display raw error codes**
+
+Raw error codes are complex and may require special knowledge to interpret, making them unsuitable for user-facing displays.
+
+Here's why:
+
+1. **Security**: Displaying raw error codes can be used by malicious actors to gain access to sensitive systems or data.
+2. **Complexity**: Raw error codes often require specialized knowledge to understand the context and implications of each code.
+3. **User frustration**: Users may become frustrated if they're trying to troubleshoot an issue only to be presented with a cryptic message containing raw error codes.
+
+Instead, use more accessible and user-friendly display methods, such as:
+
+1. **Error messages**: Use clear and concise error messages that provide context and guidance on how to resolve the issue.
+2. **Help pages**: Include help pages or tutorials that explain what each error code represents and how to fix it.
+3. **Progress indicators**: Display progress indicators or notifications when a user is working on troubleshooting an issue.
+
+Here's an example of a more user-friendly display method:
+
+**Error message:**
+`Error 404: File not found`
+```html
+<em>File not found</em>
+```
+
+In this example, the error code (404) is displayed alongside a brief explanation and guidance on how to resolve the issue. This approach helps users understand the context of the error without exposing sensitive information.
+
+By avoiding raw error codes, you can create more user-friendly and accessible error messages that help users troubleshoot issues in a safe and efficient manner."," Never show raw error codes such as 'Error 4031' or 'ERR_AUTH_FAIL' to users. Log them internally and show a human message instead. If a code is legally required, place it in small secondary text below the main message.
+
+ For error messages, check: does it state what happened? Does it say what to do next? Does it avoid raw error codes in the user-facing text? Is it supportive and non-blaming?"
+What is the purpose of a secondary button CTA,"The primary purpose of a secondary button CTA (Customer Transaction Action) is to:
+
+1. **Provide alternative actions**: Offer users an opportunity to take different actions or perform specific tasks.
+2. **Enhance user experience**: Increase the overall value and satisfaction of a transaction by providing more options for completing the desired action.
+3. **Reduce frustration**: Allow users to cancel or change their plans if needed, reducing potential frustration or disappointment.
+
+Here are some examples of secondary button CTA usage:
+
+1. **Cancel**: Offer users an option to cancel or pause their transaction.
+2. **Save changes**: Provide a way for users to save changes or revisions before finalizing the transaction.
+3. **Edit details**: Allow users to edit specific details, such as product information or payment methods.
+4. **Review and confirm**: Include a review step where users can confirm their action before proceeding.
+5. **Retry or refresh**: Offer users an opportunity to retry or refresh the transaction if it fails.
+
+The secondary button CTA is often used in situations where:
+
+1. **Multiple options are available**: Multiple actions or tasks are required for completion, and users need additional options to choose from.
+2. **Users may be changing their plans**: Users may want to modify their plans or cancel a transaction due to changes in circumstances.
+3. **Complexity is involved**: Complex transactions or tasks require multiple steps or actions to complete.
+
+By providing an alternative action or option, secondary button CTA can enhance the overall user experience and reduce frustration.","For secondary button writing, use clear, action-oriented labels that describe the alternative path available to the user. Secondary button CTA text should help users postpone, review, return, or exit an action without creating uncertainty. Be specific — 'Review details' is clearer than 'Back'. Secondary button text should clearly communicate what happens next and should never force users to guess the outcome. Avoid generic labels such as Back, Cancel, No, Close, Dismiss, or OK when a more descriptive alternative is possible. Write 'Review details' not 'Back'. Write 'Maybe later' not 'Cancel'. Write 'Return to card settings' not 'Close'. Write 'Choose another card' not 'No'. Write 'Continue editing' not 'Dismiss'. Secondary CTAs should reduce ambiguity, support user control, and provide a clear alternative to the primary action.
+
+For primary button and label writing, use verb-first labels: 'Pay now', 'Add card', 'Verify identity', 'Send money'. Be specific — 'Confirm' is weaker than 'Pay 49.99'. Primary button CTA text should complete the sentence 'I want to...'. Avoid generic labels like OK, Yes, No, Submit, or Click here. Write 'Pay 49.99' not 'Submit'. Write 'Add card' not 'Add payment method'. Write 'Verify identity' not 'Authenticate'. Write 'Send to James' not 'Send'. Write 'Try again' not 'OK'."
+"For the secondary labels Back, Cancel, Close, No, Yes, and Dismiss, what are the approved alternatives, and how to write them?","When writing secondary buttons with labels like ""Back"", ""Cancel"", ""Close"", ""No"", ""Yes"", and ""Dismiss"", it's essential to use a consistent style and labeling convention. Here are some approved alternatives and guidelines for writing these labels:
+
+**Approved Alternatives:**
+
+1. **Back**: `Previous`
+2. **Cancel**: `End`
+3. **Close**: `Finish`
+4. **No**: `OK`
+5. **Yes**: `Accept`
+6. **Dismiss**: `Close`
+
+**Writing Guidelines:**
+
+1. **Consistency**: Use a consistent style and labeling convention throughout the application.
+2. **Clearness**: Write clear and concise labels that provide context for the action or option being presented.
+3. **Actionability**: Ensure that the label clearly communicates what will happen when the user chooses it.
+
+Here's an example of how these alternatives can be used in a button:
+
+**Button Label:** `Next`
+
+* Approved Alternative: `Previous`
+* Writing Guidelines:
+	+ Use `Previous` to indicate moving back to a previous state or action.
+	+ Avoid using `Finish`, `End`, `OK`, or `Close` as they imply completing the transaction, which may not be the intended action.
+
+**Button Label:** `Remove`
+
+* Approved Alternative: `Delete`
+* Writing Guidelines:
+	+ Use `Delete` to indicate removing an item from a list or array.
+	+ Avoid using `Finish`, `End`, `OK`, or `Close` as they imply completing the transaction, which may not be the intended action.
+
+**Button Label:** `Search`
+
+* Approved Alternative: `Find`
+* Writing Guidelines:
+	+ Use `Find` to indicate searching for specific items or data.
+	+ Avoid using `Finish`, `End`, `OK`, or `Close` as they imply completing the transaction, which may not be the intended action.
+
+**Button Label:** `Add`
+
+* Approved Alternative: `Insert`
+* Writing Guidelines:
+	+ Use `Insert` to indicate adding new content or items to a list.
+	+ Avoid using `Finish`, `End`, `OK`, or `Close` as they imply completing the transaction, which may not be the intended action.
+
+By following these guidelines and writing approved alternatives for secondary buttons with labels like ""Back"", ""Cancel"", ""Close"", ""No"", ""Yes"", and ""Dismiss"", you can create a consistent and intuitive user experience.","For secondary button writing, use clear, action-oriented labels that describe the alternative path available to the user. Secondary button CTA text should help users postpone, review, return, or exit an action without creating uncertainty. Be specific — 'Review details' is clearer than 'Back'. Secondary button text should clearly communicate what happens next and should never force users to guess the outcome. Avoid generic labels such as Back, Cancel, No, Close, Dismiss, or OK when a more descriptive alternative is possible. Write 'Review details' not 'Back'. Write 'Maybe later' not 'Cancel'. Write 'Return to card settings' not 'Close'. Write 'Choose another card' not 'No'. Write 'Continue editing' not 'Dismiss'. Secondary CTAs should reduce ambiguity, support user control, and provide a clear alternative to the primary action.
+
+For primary button and label writing, use verb-first labels: 'Pay now', 'Add card', 'Verify identity', 'Send money'. Be specific — 'Confirm' is weaker than 'Pay 49.99'. Primary button CTA text should complete the sentence 'I want to...'. Avoid generic labels like OK, Yes, No, Submit, or Click here. Write 'Pay 49.99' not 'Submit'. Write 'Add card' not 'Add payment method'. Write 'Verify identity' not 'Authenticate'. Write 'Send to James' not 'Send'. Write 'Try again' not 'OK'."
+What is the primary job of an oboarding pages screen?,"The primary job of an onboarding pages screen is to:
+
+**Guide users through the new application or system**
+
+1. **Introduce the new features**: Clearly explain the purpose, benefits, and key features of the new application or system.
+2. **Establish a connection**: Help users establish trust and understanding by explaining how their personal data will be protected.
+3. **Provide navigation guidance**: Guide users through the onboarding process, including setting up accounts, entering data, and completing initial tasks.
+4. **Prevent errors and confusion**: Eliminate any potential for user confusion or errors by providing clear instructions and examples.
+
+**Key Features of an Onboarding Pages Screen:**
+
+1. **Welcome message**: A brief introduction to the new application or system.
+2. **Informational content**: Detailed explanations of new features, benefits, and key elements.
+3. **Navigation menu**: Clear guidance on how to navigate the onboarding process.
+4. **Verification steps**: Steps to verify user identity and complete initial tasks.
+
+**Goals of an Onboarding Pages Screen:**
+
+1. **Educate users**: Inform users about the benefits and features of the new application or system.
+2. **Guide users through the onboarding process**: Walk users through a clear and structured process.
+3. **Prevent errors and confusion**: Minimize the risk of user errors and confusion.
+
+By successfully completing these tasks, an onboarding pages screen can help ensure that users:
+
+* Understand the purpose and benefits of the new application or system
+* Establish trust with personal data protection measures
+* Follow a clear and structured onboarding process
+
+A well-designed onboarding pages screen is essential for successful onboarding, user adoption, and overall success.","The content matrix is used to track, audit, and maintain writing decisions across the product. Every piece of recurring UI text should have an entry. Each entry should record the screen or component where the text appears, the user's goal at that moment, the information the user needs to know in plain non-UI language, a draft version of the UI copy, the final approved live text, the tone applied, the component type such as dialog, snackbar, button, label, or notification, words to use in that context, words to avoid, whether Visa Secure rules were applied and which ones, whether accessibility was checked including alt text, label, and WCAG AA pass, and who is responsible for the content and when it was last reviewed.
+
+Accessible writing is not a separate consideration — it is part of good writing. These rules ensure the app works for users with visual impairments, screen readers, and cognitive differences."
+what are the general writing rules that should be applied across the product?,"When writing for a product, there are several general writing rules that can help ensure consistency, clarity, and accessibility across the entire product. Here are some key principles to apply:
+
+1. **Consistency in formatting**: Use consistent font styles, sizes, spacing, and alignment throughout the product.
+2. **Clear and concise language**: Avoid using jargon or technical terms that may be unfamiliar to non-technical users.
+3. **Proper grammar and punctuation**: Ensure that all sentences are grammatically correct, with proper use of commas, periods, and other punctuation marks.
+4. **Simple and direct sentence structure**: Use simple sentence structures that are easy to follow and understand.
+5. **Avoid ambiguity**: Be clear about what you mean by your text, avoiding ambiguity or open-ended questions.
+6. **Use active voice**: Using the active voice (e.g., ""write"" instead of ""wrote"") can make writing more engaging and dynamic.
+7. **Proofread carefully**: Carefully proofread each piece of writing for grammar, punctuation, spelling, and clarity errors.
+
+**General Writing Rules Across Product:**
+
+1. **Use a clear and concise title**: Use a descriptive title that accurately reflects the content of the section or page.
+2. **Write in a conversational tone**: Write in a friendly and approachable tone, avoiding jargon and technical terms that may be unfamiliar to non-technical users.
+3. **Use bullet points and numbered lists**: Break up large blocks of text into smaller, more manageable sections using bullet points and numbered lists.
+4. **Use headings and subheadings**: Use headings (e.g., H1, H2) and subheadings (e.g., H3) to structure content in a logical and easy-to-follow way.
+5. **Avoid excessive use of short paragraphs**: Break up long blocks of text into smaller, more manageable sections using shorter paragraphs.
+6. **Use clear headings and labels**: Use descriptive headings and labels to help users navigate the product.
+
+**Best Practices for Specific Content Types:**
+
+1. **Product descriptions**: Write concise and accurate product descriptions that highlight key features and benefits.
+2. **Help content**: Write clear and concise instructions on how to use the product, including troubleshooting tips and user support contact information.
+3. **Error messages**: Write clear and concise error messages that provide users with step-by-step instructions on how to resolve the issue.
+4. **Notifications**: Write clear and concise notifications that inform users of important events or actions.
+
+By applying these writing rules across product, you can ensure consistency, clarity, and accessibility for your users.","These general writing rules apply to all microcopy across the product, regardless of component or situation. Don't over-explain — communicate only essential details and include only the information that helps the user complete the specific task at hand, avoiding information overload especially during payment and authentication flows. Be concise, not robotic — write short, scannable text, since users in a payment flow are focused and should get only what they need. Write simply and directly, since plain language is not dumbing down but respecting the user's attention; always ask if there is a simpler way to say something. Start with the user's goal so sentences mirror how users think and speed up comprehension. Use common, everyday words that any reader would understand on first read, and avoid jargon and unexplained acronyms — technical protocol names like EMV, 3DS, VbV, PAN, or tokenisation belong in developer or support documentation only, never in consumer-facing UI unless explained. Write in the present tense rather than future tense. Use numerals (1, 2, 3) instead of spelled-out numbers in UI text and instructions. Refer to UI elements by their label, not their type — say 'tap Pay' not 'tap the Pay button'. Use consistent terms across all screens for the same action — never use 'confirm', 'approve', and 'authorise' interchangeably. Use verb-first, specific labels for buttons rather than generic ones like OK, Yes, No, Submit, or Click here. Avoid alarm words such as 'alert', 'warning', 'danger', 'threat', 'breach', or 'suspicious' in routine flows, since these cause unnecessary anxiety and can increase abandonment. Never overclaim security with phrases like '100% secure', 'fraud-proof', or 'guaranteed safe', since these are inaccurate and create legal exposure. Never show raw error codes to users — log them internally and show a human message instead. Address users in second person (you/your) as the default, using first person (I/my) only when the user is taking clear ownership of a choice or piece of content, and never mix the two perspectives in the same phrase or sentence.
+
+This guide is for product designers, content designers, UX writers, engineers adding microcopy, and any team member who writes words that appear in the product — including error messages, tooltips, labels, push notifications, and onboarding flows."
