@@ -1,4 +1,4 @@
-﻿Input,Actual_output,Expected_output
+﻿Input,Actual_output,Context
 Who is this guide for?,"Since our conversation just started and there's no prior context, my response will be brief.
 
 However, based on the writing rules you provided earlier (don't over-explain, include necessary information, concise, scannable, simple, direct), I can infer that this guide is likely intended for a UX writing assistant or a content strategist who wants to ensure their microcopy aligns with established guidelines and best practices."," This guide is for product designers, content designers, UX writers, engineers adding microcopy, and any team member who writes words that appear in the product — including error messages, tooltips, labels, push notifications, and onboarding flows.
